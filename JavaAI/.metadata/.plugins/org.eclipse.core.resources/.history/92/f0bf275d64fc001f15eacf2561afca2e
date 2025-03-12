@@ -1,0 +1,80 @@
+package main;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.nio.ByteBuffer;
+
+//includes utility functions
+public class Utility {
+	// reads the main set of MNIST images (provided the filepaths for the images and
+	// labels file)
+	// reads based off the encoding described in the MNIST doc
+	// (https://yann.lecun.com/exdb/mnist)
+	// returns in tensor form
+	public static void readSet(String imagesFile, String labelsFile) throws Exception {
+		// open label file
+		File f = new File(labelsFile);
+		FileInputStream fin = new FileInputStream(f);
+
+		// read
+		byte[] data = fin.readAllBytes();
+
+		// wrap in buffer for easier reading
+		ByteBuffer buff = ByteBuffer.wrap(data);
+
+		// remove magic number
+		buff.getInt();
+		// get the size of the set
+		int NUM_IMAGES = buff.getInt();
+
+		// allocate labels based on set size
+		int[] labels = new int[NUM_IMAGES];
+
+		// populate labels array
+		for (int i = 0; i < NUM_IMAGES; i++) {
+			int num = (int) buff.get();
+			labels[i] = num;
+		}
+
+		// close the label file
+		fin.close();
+
+		// open image file
+		f = new File(imagesFile);
+		fin = new FileInputStream(f);
+
+		// read
+		data = fin.readAllBytes();
+
+		// wrap in bytebuffer for easier reading
+		buff = ByteBuffer.wrap(data);
+
+		// remove magic
+		buff.getInt();
+		// once again get size of set
+		NUM_IMAGES = buff.getInt();
+
+		// also get bounds on image size (28x28)
+		int sizeX = buff.getInt();
+		int sizeY = buff.getInt();
+
+		// calculate total image size in bytes based on dimensions
+		int imageSize = sizeX * sizeY;
+
+		// instantiate images array based on the image dimension and the set size
+		byte[][] images = new byte[NUM_IMAGES][imageSize];
+
+		// populate images into array
+		for (int i = 0; i < NUM_IMAGES; i++) {
+			// read each image as byte array
+			byte[] image = new byte[imageSize];
+			for (int j = 0; j < imageSize; j++) {
+				image[j] = buff.get();
+			}
+			// place into array
+			images[i] = image;
+		}
+		// close file
+		fin.close();
+	}
+}

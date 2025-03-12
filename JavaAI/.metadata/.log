@@ -1,0 +1,2567 @@
+!SESSION 2025-03-08 12:23:54.119 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Users\findy\Desktop\dev\JavaAI\.metadata\.bak_0.log
+Created Time: 2025-03-10 19:09:33.470
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:09:33.470
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:09:33.472
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:10:23.059
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Av1Qb9ZMoO0oVtfmKPqHRWDwqnRFFXdG7fT_5JptnqQ-1741651823000-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:11:27.364
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sbtaVc0unHEH8A9VYntXKpBHqV9PcTTqTdj1Ri6DFUM-1741651887321-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:11:47.339
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:11:47.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:12:31.636
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="9_BBf_hR33RbfmBiwaWP0DpZnix8Rjk3GKqcnzzIf3U-1741651951592-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:13:35.936
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="h91zSZ5DlEyNXR0l50wIXzetQ2jWv6Tv6ZYsoUpAKhA-1741652015893-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:14:15.924
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:14:15.925
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:14:40.277
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="WM.J5h1mTylrKAO8DOlLgJP5q1JDEScIPhA.mZtHjCY-1741652080235-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:14:55.872
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:14:55.873
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:15:44.614
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="3gYSVVw9I9lENODsqGJDeKjivo4A.NvgoDzTwCGLrsA-1741652144559-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:16:48.923
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="XTSpeHSfTBXYeqVIgBMjZc4d_j972rhnHh6brMCJw30-1741652208868-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:17:07.409
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:17:07.410
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:17:24.547
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:17:24.548
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:17:42.360
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:17:42.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:17:53.234
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="CFpySnCD9zk5l6Ac2k6tWKgvbW3EPQviY8mZvf.omJ4-1741652273190-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:18:48.743
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:18:48.744
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:18:51.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:18:51.806
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:18:57.519
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="kLEwhH0YgTKv6hxSwE9cZ1M0O2aXqLnSuHD_pstdRHU-1741652337474-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:19:12.337
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:19:12.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:19:35.735
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:19:35.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:20:01.826
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MLDAG5A5d8h2DB1_OjovY9c_4Hoi7_wHsg93F7Ad3AM-1741652401783-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:20:27.771
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:20:27.771
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:21:06.110
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KHXSWGhLFTm4qn9WV9jBgpJAvDTbJW845QUne2iclLg-1741652466066-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:21:38.672
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:21:38.672
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:21:42.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:21:42.146
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:22:10.407
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="2C3BVw7N.VfcB88gDChDek_aavSs7eOf8V99PAJE9pE-1741652530364-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:22:11.085
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:22:11.086
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:22:19.494
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:22:19.495
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:22:48.333
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:22:48.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:04.818
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:04.819
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:06.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:06.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:23:14.687
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="iEelkc4MFbXgUl2vU3owzH50rno9X4HVoemk6OKZI2c-1741652594644-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:14.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:14.988
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:31.137
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:31.138
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:35.575
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:23:35.576
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:02.252
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:02.253
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:24:18.957
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="E4muuhoq5oUdtJMYvyvdFNLCpGdN1bKgdvPIQXChYhs-1741652658915-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:19.927
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:19.928
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:39.166
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:39.167
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:56.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:24:56.999
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:25:03.164
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:25:03.164
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:25:16.539
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:25:16.540
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:25:23.198
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="9UjZNcynqHW7mZlHM0Z1lBeW_WeK2BDaGbnM9SQiURI-1741652723155-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:26:13.773
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:26:13.774
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:26:27.608
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:26:27.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:26:27.612
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="R_jzNMPqcRjzR6_iKnG0_dQDgwXabbCFIvGokL9RggU-1741652787558-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:26:49.405
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:26:49.405
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:27:13.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:27:13.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:27:31.893
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="QUvTbeMpkzaNQFp.gCz_uV7nl.Vxz3q0R.0c6.kSYZ0-1741652851848-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:27:56.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:27:56.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:28:10.120
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:28:10.121
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:28:36.142
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="QekVByNvPl6Y5wulwFgX.VsEgC8GsG_2vl8zW_yE57w-1741652916099-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:28:38.442
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:28:38.443
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:29:40.433
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="7t2JBlTKrAsfR4rNIUzng.ClWsumzQ9ylZScOOHsBZM-1741652980392-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:30:19.138
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:30:19.138
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:30:44.717
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="gJ.7kB8fi.tjPlYsmK4yCI6Mq2R1Q3Z1XlYqPud6clY-1741653044674-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:31:13.293
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:31:13.294
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:31:48.985
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Jn1BfWycnqa8RXi0HglD3ti_iCyi3.3EznUlxrlPIa0-1741653108943-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:31:56.988
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:31:56.989
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:32:53.289
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="PqB1GwP.vuBqErSjZGy2TvYnztrhQLOp8sL0_Q62wuQ-1741653173245-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:33:57.547
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="69lQB.jKEwYNen64CWQXmwwuE..gDGacOIJDP0ULRc4-1741653237504-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:35:01.840
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Geb6Zes9qIuzLRpphWWkr0t081I5KGbHf5_r_Lsmfn8-1741653301797-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:36:06.147
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="zfDowcYnkJOVAii95uvvrHejvVesH9mQMYrsBhC8SjE-1741653366104-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:37:10.442
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="YsTiKDlGTtfxpx6SkdzDDpviCw94MVEjGfd0kgd_4F8-1741653430399-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:38:14.721
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="zm5ieiAnAlfZPgk7BqXur5UxNts_omM2qFFnbhoaGkA-1741653494679-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:39:19.051
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="SXQExeglPHzj29oAD4_H2YAG0sSmltRZ0hjyIwhSmXw-1741653559009-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:40:23.346
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="oYajDlLlUSOASKaIpf7760.td7KA3.k6jvejNZO_WTs-1741653623301-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:40:25.044
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:40:25.045
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:41:24.626
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:41:24.629
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:41:27.622
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="oHcXT9U8OaXguHYcwI_YwMVngbyUyVWlhN7LeENlBCk-1741653687578-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:41:57.194
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:41:57.196
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:04.577
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:04.577
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:09.789
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:09.790
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:15.247
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:15.248
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:26.435
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:42:26.436
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:42:31.865
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="gHUNSkli86dOrvLP8BLJaDB6wgc5_lZhke5r.dUb4Mw-1741653751822-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:43:09.579
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:43:09.580
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:43:23.564
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:43:23.565
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:43:26.948
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:43:26.949
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:43:36.108
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="qwlkKZR3sjiTIkgZZvmKljQOn.7rfXxvwjXreABaCKU-1741653816064-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:44:40.397
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="YXoH7sMtervsErC1FXk6mm.CaCF0tZVjNZQg.fUls2U-1741653880354-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:45:14.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:45:14.864
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:45:44.736
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="cxEMmP8s11AR_WyTZ2yeSDU7UKlQakgke2qQ9LwVJeE-1741653944694-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:46:49.031
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="TaSRCufykvqCjjDM67D2Ky2k.zxVcRkKzZruG_rEl1Q-1741654008977-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:47:14.177
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:47:14.178
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:47:41.986
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:47:41.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:47:53.309
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="rwCVBXdeWLTsAfLn7BP3mL55p7yCX3udihfvkwkucYY-1741654073267-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:47:55.929
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:47:55.930
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:48:11.070
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:48:11.071
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:48:57.610
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="xCT0rhyHsgYjiVJV1.U44cQ_2k_caDCMj5keH2XOzVY-1741654137567-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:49:24.780
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:49:24.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:49:43.130
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:49:43.131
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:50:01.881
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="U9hx5cYll.HrtI4PyvpAOSRWaKkb4T2frMAFpReXppc-1741654201838-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:50:51.263
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:50:51.263
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:51:06.187
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="a9INgKMnmDXc1KnBd9aosimIhaJ2e5LqoS9bX.0TjVo-1741654266142-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:52:10.482
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KzuoKB4I27eNHx48Z_njCOyIE.7D24uzYRiwXVC0vcM-1741654330439-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:53:14.755
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="YQcjxIDDVVWVxaKyXBF5yp0IyC66wwipGt3qqVE8mLY-1741654394712-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:54:19.059
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="8IWqa_u_Ui1PSt0Olr8PQk0K7MUMng.7HDPHiE1vaCk-1741654459016-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:54:20.992
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:54:20.995
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:55:01.101
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:55:01.102
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:55:23.366
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="R4er_xsOnTbr7JcQJiqzemXaZIhlsrmT52yqJ2jUQWk-1741654523323-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:55:33.994
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:55:33.994
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:56:27.644
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid=".I9jPxZ7LasN8.vH9KEb0AXTcDC3NwLj9cNTPNykbLk-1741654587600-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:56:47.986
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:56:47.986
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:56:58.360
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:56:58.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:57:20.846
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:57:20.846
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:57:31.924
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="8rIrzKs8YhSdzH5hEFeo1WHW1EgvkC_CB1rDZGBrSZk-1741654651879-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:57:39.546
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:57:39.547
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:58:32.410
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 19:58:32.411
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:58:36.215
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="W1AIowXdsRp2iTwCyuRMY67yZkpl__pdiozYK_lGEyo-1741654716172-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 19:59:40.487
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sqEchjFoCBgbPHrRZsRYu38jNG_eIXhQ0Czq2fPijuw-1741654780444-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:00:44.766
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="5Snyg2IQTMDNBwBCOV_6iAM1PVu.qsqSZTec_7Ubf8g-1741654844723-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:01:49.042
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="HnAgjCRzsBxdF71u83R96DJJvVXPqqzV2H0qBMJJ7zc-1741654908999-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:02:24.541
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:02:24.542
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:02:39.500
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:02:39.501
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:02:53.321
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="C3vCeTU3ksyx9mdmDMyjxDd8GRTc8fX4O8x4md48ThQ-1741654973278-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:03:28.221
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:03:28.222
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:03:46.374
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:03:46.374
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:03:57.612
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="wMAah3XoFu8wvXN.4dSnQfAMQwVbZDf831_wAiMibCs-1741655037568-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:03:57.936
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:03:57.937
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:04:19.304
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:04:19.305
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:05:01.874
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="tBQ3gxhHY.EbmmPdFNER9UTAT94lvjmeo0yxYNS9c80-1741655101831-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:06:06.187
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Z_nwUbObfJI75fKA.TjYtd8tpMGkAYTPc7Hi.5IvYis-1741655166144-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:06:33.337
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:06:33.338
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:07:10.622
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="n9AqhAFGAPGdbt2yR1BBtY9beFq.oTbRG0OEslvXv4Q-1741655230580-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:08:14.908
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="byFCA9WFTXJOBXazb5XHjPDvMxcYqBPz.utA6iLgnTo-1741655294866-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:08:58.997
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:08:58.997
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:09:01.327
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:09:01.328
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:09:19.162
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid=".iP4mnNYlUMQBvFAlT0jZCt6xavWVT16F5cv5evfqMQ-1741655359120-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:10:23.451
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="j7USGPDCrxAGxzJxWB__Y9oUjjjwx7UkSApqqXdAOb4-1741655423408-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:11:27.741
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Ml1f2SpW9SRFBupJ3sCrwOx9qWdgDUnDkvQl0x7Ixak-1741655487698-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:12:32.045
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="w5GnLS1c_mvuVGpmQR0EMvjM4SJX2qLCq_uTgfdImlM-1741655552002-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:13:36.347
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="RA_kLW.cydrxUZsvuACqIyVcQZPsEdB0HqCeXuzXqO4-1741655616304-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:14:40.661
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="1Hh2SvFk3i9SK.P0.c_zOEG_Yl0IN.CT35oV2njaCsw-1741655680619-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:15:44.935
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="9vZrsNFEb5Q67FA4DTKukintRzsa4jRmPiQPSps6dJc-1741655744893-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:16:32.669
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:16:32.670
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:16:49.229
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ZWxFPA_43s7bYhKvId.fYSY7wS1KzZmercaeCdHNQTI-1741655809185-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:17:05.098
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:17:05.099
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:17:15.763
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:17:15.763
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:17:37.008
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:17:37.009
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:17:53.548
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MoCwRBEsSOPl3yBzi8wmFBHJlKMDHsD0T6xAeKrKhTI-1741655873504-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:18:57.842
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="0RP2BnBTKW.xOFtUOEjIC1Vbapra3TOLCpoh7m3yink-1741655937799-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:20:02.212
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="CN6Jt2EqLOY9FV5xWI.yTajIG_p4l2l3cs.FpEYgI_o-1741656002160-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:21:06.617
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="bbHJGTnWzQRiZb4klKqvohOSOhJQrNPuPAVR7upWymQ-1741656066572-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:22:10.909
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="VE2McwzCchRVOWav8g5HRdaPYvbYGVlWLyzjk_w8yvg-1741656130864-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:23:15.286
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="wTplGWV4449l0jQ7qcrAlrjggfRQA_DvShJG6DG4K0U-1741656195243-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:24:19.558
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="qs2QAjERQwH9kKyJRZjzPvx72WoTI5eVnkVkh_hgSlA-1741656259515-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:25:24.213
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="AvCYgQS6KqSfC1.FwOHLTzo4p8n9BYEA12pdVrqLfBo-1741656324170-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:26:28.450
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KBtXEI5A71ODXuXOQMYw2VhOAhN4wUTZNpYb2Psg4n4-1741656388407-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:27:32.705
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="QCASxG8EQZWGDd6LiaOi1c5jBLUNoFpaRzR0chZeEmU-1741656452660-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:28:36.001
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:28:36.003
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:28:36.981
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="msPH3UQFmCHRhgZnq_pWsFABig_1R3YvP_Fxsu64Yv4-1741656516940-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:28:49.427
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:28:49.427
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:29:41.323
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="t7.urdBx8_vuwNCvr9HkLonOElcXgW.TxoLMiatqC.I-1741656581280-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:30:19.338
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:30:19.339
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:30:45.603
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="npV_7gHe23SnBxmsYW.PVuK5Pxz.htaCO7mwyMmIYvM-1741656645560-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:04.486
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:04.487
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:12.842
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:12.843
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:33.196
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:33.201
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:40.094
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:31:40.095
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:31:49.910
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="blfcMg41lchCLTJM1SSWZekrtd1C1fYhKZf.ohxSLhY-1741656709867-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:32:54.198
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="AAyLBL1wChgdpijzHUQzL8jqM6u3Is0y7gE7kQIKIJ0-1741656774157-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:33:58.442
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="iAU3q7vK4cSyhE.M8BeBuFUsWx0dOWKiFTHSvdJ6yGc-1741656838396-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:35:02.705
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="7w9r8i05C0wLZ_qEC_uA9tZzaSIwWiuk6ltts.spdo0-1741656902663-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:36:03.401
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:36:03.401
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:36:06.100
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:36:06.102
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:36:06.975
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="3ceze_7VDFfLwn163eb1zF0oYiiCAFRlKLQ0jECSazk-1741656966933-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:37:11.261
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="gNK9kospI1yD8GhLpUjRg.YBA8NI1a89vKEM9Y5CxYU-1741657031219-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:37:58.934
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:37:58.934
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:38:15.509
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Vjqag7tKfO2LQVBxnqc88trnkmybMoKbpfCEq_BvMow-1741657095466-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:38:16.415
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:38:16.416
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:38:19.596
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:38:19.596
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:38:46.275
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:38:46.276
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:39:19.760
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="1QULVrtkULcGIScGBOPsze_kiH14XaxzzmwDYJVdY1Y-1741657159718-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:39:21.826
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:39:21.826
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:40:24.020
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="3HzWypkCuuP7dcA.3jwQbsWsU_cevY8GJFWNu4GnfAI-1741657223976-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:40:33.573
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:40:33.573
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:40:47.825
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:40:47.826
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:40:53.073
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:40:53.075
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:06.053
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:06.054
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:13.961
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:13.962
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:24.695
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:24.696
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:41:28.280
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="yxqPgkBUOx.mAzCy5xw5ttybLwNz0BUsZL60odnotcc-1741657288238-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:37.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:41:37.064
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:42:32.544
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="xO6Q03UeUYk.GlkBF4yiSUYQ3oPqKlodUmmkQJs478w-1741657352501-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:42:39.633
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:42:39.634
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:20.641
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:20.642
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:32.296
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:32.297
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:43:36.861
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KXC_oh1uRDgYtnE1Mf5db1FL4JYGAJRVZiBBTFYg3po-1741657416820-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:38.502
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:38.503
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:45.950
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:45.950
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:52.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:43:52.732
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:05.730
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:05.731
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:13.919
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:13.920
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:19.599
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:19.600
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:23.910
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:23.911
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:30.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:30.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:44:41.147
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="LCIsOf_4.8cATfPUkvpTwHsPrTx9pj3O8wTXXbqMugs-1741657481105-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:45.423
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:44:45.424
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:06.133
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:06.134
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:11.631
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:11.631
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:20.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:20.726
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:21.736
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:21.737
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:25.983
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:45:25.984
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:45:45.419
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="qXFcBfOWsEpg8d0U6sqQa6gwmL2MB9CfWEcPRUGZExI-1741657545377-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:46:07.141
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:46:07.141
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:46:39.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:46:39.063
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:46:49.726
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="bgptPSDaBN8rHpzugLq7Pdnavr7xb_XXi9IxojqgAPc-1741657609684-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:46:55.856
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:46:55.856
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:47:12.048
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:47:12.048
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:47:51.701
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:47:51.702
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:47:54.011
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Sa22AYiX7PQHC22rkMFYCGIciwQ1TC_GlPEFRkFCyuI-1741657673968-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:47:56.944
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:47:56.945
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:48:58.270
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="XrX58ZtrDUvqsg_Y.X2QOJZfJaCsYv6KnDIHyfLruoQ-1741657738228-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:49:12.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:49:12.620
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:49:26.499
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:49:26.500
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:49:33.215
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:49:33.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:50:02.625
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="i4ipQba7MguF04x7r0Gy90VLZAflU2Z504XpcXqWI40-1741657802582-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:50:17.563
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:50:17.564
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:50:27.148
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:50:27.149
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:50:46.870
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:50:46.871
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:51:00.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 20:51:00.785
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:51:06.915
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="P24Druo6vENUK7m8Zj3A7Tu6LshxMlsmQDaHSnrZsXg-1741657866874-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:52:11.304
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="lZGwqRk31eGfWmGaX4945m_0sLmmBCyW2jQ5pfvLFfo-1741657931263-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:53:15.589
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="8O44I2HG9CDwpo0FKJHbwRSXMy9hztpTSoA.6Yj2hR0-1741657995547-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:54:19.953
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="BY77i9moi5NLqWfed_kA7QJoMdHga0LW8AllXF3prvg-1741658059910-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:55:24.391
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="pagkmdrHInolbwJJr.2aiUWkCq0H4V.zB_lu6NCvS4I-1741658124348-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:56:28.716
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Wvr3z0ZFO2ICTyp_BgzA_75qbso3DejKKWfQ8aIPlCY-1741658188674-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:57:33.044
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="N1kqYOeWVWqYkbv1JjHa0kDtoYc_Qs12PV4ulzX1cPo-1741658253001-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:58:37.331
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="hfYSwp8d4II6cNSihzW7pNB2beEHr4qAANSfuSS7JsQ-1741658317290-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 20:59:41.618
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ktZ7_ANhvhhatbxosGu8Z.qQn1pStbgC8OeGuuFBf6c-1741658381577-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:00:45.943
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MNIx0Eas5shZpgtT2OkHxHVQtemeknfiTuVe81BIp9s-1741658445900-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:01:50.249
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="eMqOUBNF.JhQZ5KkHxL8YPiExZFvfVf8yFDcRZ9oQRw-1741658510207-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:02:54.538
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="E6Ieq7.D6zzYfZp2mCwZqaq4WfHuT_w7biRIHZOQeyw-1741658574496-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:03:58.836
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="xOV.2n_a8X1VNxOPwu7ee5GpCS6uBrJVAxxYiNua80I-1741658638792-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:05:03.159
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="X4lIZ1_voPN85QlAZge81AqHYebna6sE3PkDH0cRWcw-1741658703117-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:06:07.456
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="A0bJogbFPvwhKtx.3CxHWc_NCGQNzTGXHHtzmjs7yzA-1741658767411-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:07:11.795
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="0xQGl.tP.VP4xyuJc_kN1Ioj5RE6fGWp1QEQvn6E5ac-1741658831751-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:08:16.172
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="vXajoQaECE.qQtugupEUCixWZ3koEenvogwhsZvQUv8-1741658896130-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:09:20.469
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="65oSc_aI.8asuUQxSHkJDCtPh1ePnL0b7BJp91HuIAs-1741658960424-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:10:25.037
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="eHvDLtWMshnisG3WXGgtrq6Fzaaj8wv_MRWgYOQGBAs-1741659024729-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:11:29.308
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Do5.303jh6l9UsNMNnXk5mg_MjHlU3ruzufUBdVHTwA-1741659089265-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:12:33.608
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="FksbWLY0rJjoPUd5Cu2idyi.Or5NJrbvCOPXu06j6L0-1741659153579-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:12:39.196
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:12:39.197
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:13:38.118
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="T_NDpPtlFP.DDniq2MVZK11EntuRPZihKXO4CitOzZQ-1741659218049-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:14:42.462
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="CKBaKrbZwtMxXjx9mnWJ7ZZK4tPhmzGvNYCxQCCHhz8-1741659282420-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:15:46.899
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="UdnL7bK8eBld9.gmi2qB9dw1HAB8q7runMTKDOml6Bo-1741659346856-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:15:59.617
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:15:59.619
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:03.129
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:03.131
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:14.524
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:14.525
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:19.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:19.678
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:34.559
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:34.559
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:39.248
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:39.250
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:49.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:49.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:16:51.197
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="n1CGfq8d1Kk29Gse2LKSe5Meq32EmTfqObHgZubYhuY-1741659411154-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:58.633
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:16:58.634
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:03.897
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:03.897
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:10.140
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:10.141
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:30.070
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:30.070
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:35.055
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:35.055
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:49.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 21:17:49.455
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:17:55.570
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="VThmZZ6QeWl4Hjzo9rQjqmjidAY3.HijYn.0pYfAMOI-1741659475527-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:18:59.870
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="EUErLxbENno0_5gTx6FnBdXHr4g0plTVq2JsQptJv1U-1741659539827-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:20:04.333
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="UfAcjs_5akVp3uL.2LOjQm7.3GeytNkzBQvYqnkXJmI-1741659604290-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:21:08.614
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="d1KWIIedJVwGQogwmgIQFAQYg1VleZIMCc6NLASButs-1741659668572-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:22:12.983
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="9u4edrznbTsQnkgzAqs41ydpnRwkUzAzhSIJybXfH_I-1741659732938-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:23:17.304
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="DVi1XTt8T1tpBlwdrBW0XWnB5zq8piDJNwCwgafzm8g-1741659797261-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:24:21.642
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MGXkHXxwLheB4546_244ZW1ZkWjjcUAgPamRy7v5EuI-1741659861600-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:25:26.003
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="EqTS990pg4hrhb3iESp.jBWDpGcdhNZQx02oFQKDjqU-1741659925959-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:26:30.407
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="NFBvWopukWj22FkkUrRGnqhaCoT0YattJOLNEYLTQNs-1741659990363-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:27:34.711
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="GupuzsG2Stvdz8JObddi5vRuFj0PiinF0.._RZGbJ5Y-1741660054668-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:28:39.014
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ECSr.x4DxCEHiE1Y0iP_oqVeX.zQScbwscTCs5nrSD4-1741660118971-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:29:43.304
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="nB4YbmV8OPMVfeno941sO5SGxiuXF2ex2OStL7ZuwUo-1741660183262-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:30:47.691
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="H5hA.xDPRnJDreCCO5XAyi3UzR1e_Udfj9KMwLFQFX8-1741660247647-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:31:51.970
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="_seklU_BRPYVokaljJff4DYc9XfXjPTe60VlKkbqPIg-1741660311929-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:32:56.325
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Zo.7Wt8DH_6fe_nabh2NWEHJUs68SbbDTwE_TliATXc-1741660376282-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:34:00.677
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="3f1iR69b5yO6v6UTAsW4EQDt9Y_gRwZIxONJhJmA80w-1741660440634-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:35:04.987
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KMCImvTPi.h4RrY9xbOrAZ11B9KvrY4K84nQYXU1Rpg-1741660504944-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:36:09.830
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sKiFxNBbI3eCKdl6j_FbK1Es0g6gybvaxSME1uZmlkc-1741660569564-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:37:14.143
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="c6aEbyxd9kh2aMKsE.u7mOyCbeqlpIY000c21Epcrxk-1741660634100-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:38:18.469
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="kUq6BDF6suoq8AkUU6omQzREjJMvVyZH5yQnXDTyV3g-1741660698426-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:39:22.811
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="biyDQ7ft4kcL7JzT9TyQ.Xti9qLTGYuJdIM_zPBsc8M-1741660762766-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:40:27.142
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="q0Yus3Falw2s3PM5zQmxG8wCUKDxN3YKs35cqRHALQ4-1741660827098-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:41:31.536
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="qkPOsf83iC8iPQKBq_OwYCpwuuA1AtxmwgJQ_skjPeI-1741660891493-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:42:35.879
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sVfnhJHRgsOMLDT1Aja54pA7LvAWBmd9RDxMkMtr2hI-1741660955836-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:43:40.204
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="GnfvlkZY1ZpVSE6ioN5gknYU615Bw7JtB8UfiTy21Lc-1741661020160-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:44:44.536
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="GHEKAetuV2TRGYm7aM.Y2d_7o5p2qAExaVmL4UKlUMI-1741661084491-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:45:48.875
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="av5NStdRXJ481UwcTWWAR8f_6b0NG.p30byujIOEbzg-1741661148831-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:46:53.177
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Gic_uzH7nJK5PuxcmibhctENNidSeSAwNTIhdkEHzaw-1741661213134-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:47:57.565
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="cgSdbPAHm5qIrRiRdyaqM2faKHs.EkpNjIGuIBbxDT4-1741661277521-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:49:01.964
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="jrBzcsaSi7opQeVCzIHowYRLFgtgnsExJ2WHamGs9g4-1741661341920-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:50:06.381
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="scOZ8xorDEsrBb03Tn5E1y4sNPXj.VYsVEgdJMHpWIo-1741661406337-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:51:10.774
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Dmtc2Ofmb5Rtd0MPK0dYz.BYZWPjmbp9aZq8Wm0W36Y-1741661470730-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:52:15.221
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="2wL6rjOh6fJLoasOdUe_57Tvl_1S1QGUTPayGpg52hc-1741661535176-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:53:19.566
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="W28pmXjzrJnv5Jg8XPL2zje0PE1UY0j2br43ogtL0Y8-1741661599523-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:54:23.958
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="G_u6B5q.Z32Xd2TULGXzE7ZByMIjqKeETTpH7AEB_yU-1741661663913-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:55:28.269
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="vdydYGFPV0KwatTKgmrMMF.7OFzS6UE3YpFaOOJAr6M-1741661728225-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:56:32.579
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ZQIon2R8vqgbXlCcV0zLPwtTV3baJy90aXAtSi.EaHc-1741661792535-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:57:36.886
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="uvzL8bLf0DefSETjp0_HFe2MXMdHgQI4s3DT2GdRpVo-1741661856843-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:58:41.208
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="F8C7YQtiv0gAIz3IXxWGdV6pDGLA_xYcKXV9Yqz0g4s-1741661921163-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 21:59:45.576
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="4DifB0hfuh28qHJHYsSzdubsC_D0S4O6qtP6hM7v41I-1741661985531-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:00:49.888
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MJnhjgSwFe_iormF5jze31LxZRUZai2Qh16D73Wzt8U-1741662049830-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:01:54.319
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="yqJ_fiQPIjS93.zSadLO2tMHEHllqV6C2bT9EtDU0.4-1741662114163-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:02:58.673
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="z.nSf4VzZdJhhJTZ6Bn8sf3GJC7iZ_Bt8t8DkSNay5I-1741662178627-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:04:02.976
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MxUFw4e_iBAowFE3shM.wUUc2wLhavMn8hH6vUfTuVM-1741662242931-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:05:07.279
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="2b0PYnQ5.Yo9xHNuN47RJ1Q78sK9q.nCK8NsQ3RL38g-1741662307233-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:06:11.573
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Xp8l51REz.nihvaeZgnMBhvmnT8ZVum7svVcEp9aQEg-1741662371528-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:07:15.888
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="IWJ5KNikA4vBBk14_JtmHzB0UHUjuiQ9gvxs0nXWYgI-1741662435840-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:08:20.241
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Mfcq53Flw8NIaUVV1LyH60EWU5xRW54frfm.r.rZPyU-1741662500191-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:09:24.527
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="11S8J_f4z8.xqXdHwYxgW.7g4s9qL9zc1HPx7auMQWs-1741662564481-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:10:28.812
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="2.aKEwdx0ycy7Gh1WOQjdEhlxeTRQdIAhf7WTHJcy6M-1741662628767-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:11:33.214
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="pWi02AZhF1SHRT6_5Klw_7tdNDtYO35GLQkB.A2I.Qc-1741662693166-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:12:37.581
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="PoJCxkMeJ09lVRdiDoHZetyxqIw762hp3pL3fox16pk-1741662757534-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:13:41.882
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="C4d..yDsfq5wfT6tx4SPSago7ikYo3WeKh.4F6apSlM-1741662821835-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:14:29.096
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:14:29.097
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:14:46.211
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="UmmcEnIsugMAX32IGimSKoQZc43WxBb_s2XcraU8zuE-1741662886164-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:14:55.400
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:14:55.400
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:15:37.328
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:15:37.331
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:15:50.487
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="9MZC9sJ25YTXhfQqKaRW8oxG29lLyQ43RtO7JlAVLaE-1741662950441-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:16:09.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:16:09.116
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:16:54.769
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ngQ8neeyFTuzDgni4B_m3GfDfY_mABar36PM5YgpVGY-1741663014722-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:17:43.380
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:17:43.381
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:17:59.063
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="krS9UH4iQhcsM4SV5bE.eXmPZfqWixJAWGWfyrhSeBk-1741663079017-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:19:03.395
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="cG9kZh9KrqYYhfMkk_t2UzJqep1ICKyF5WfGcklCEn8-1741663143349-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:20:07.689
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Fdd49RXhNYnPrXQOKrxA7xFdIL0GX7EEctCLlc8B5yk-1741663207642-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:20:35.035
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:20:35.035
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:20:52.836
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:20:52.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:21:09.149
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:21:09.150
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:21:12.029
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sco.1_KlqsFWSKfHxu4Ea9fjv.7aVZawsuSSd5P7ELE-1741663271984-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:22:16.445
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="HaytI5pdg7QxI2atR1sdbHqHAXV5KoJathCRA3QKlXY-1741663336398-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:23:20.775
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="DIg8AxwvyR56ARSrQrSnX03pDWDRtO3WRGkj7c0AXoI-1741663400730-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:24:19.993
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:24:19.994
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:24:25.139
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="uWCieVzp4wVGlbTg9ySqCvqrvQHSqdlyxFHhLPrPC_c-1741663465094-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:24:45.297
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:24:45.299
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:25:00.724
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:25:00.725
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:25:18.586
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:25:18.587
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:25:29.457
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="IeXOpgZVlvyewSGTXhWuJX_P7eY77pEQjJuWG5duUYo-1741663529412-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:25:43.115
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:25:43.116
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:26:33.776
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="g.79j9JoodhvwVeQU4ASDozY8dhukFR._cYUGXK2Etc-1741663593732-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:26:35.860
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:26:35.861
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:27:38.026
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="BwHKrUUBVd4pTfsF4rbhx.Im2iT_6kQ5orvQBZM4M6k-1741663657981-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:28:42.302
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="FdYoQR1gZi0u61H3niXeqo39al7XcGPPjokhEQ0PkEU-1741663722263-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:29:46.623
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="wC5duE1tqxckWQ9jnvFveFJztSK440J9Bm5A8KZyhgs-1741663786582-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:30:50.950
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="_PwPekMZ5bxR1xq9.zBa2Uw4BMQ0sjD0LD5Q3PAh56s-1741663850906-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:31:55.269
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="kzV7gj1iDX3mOxh8mZ14Bhkoh8aTHvqu_wcX4mJa43Y-1741663915224-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:32:59.602
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="oheLlmShSli2n7JVbzJD14gF.fdiTyK43WwiC.j8IkQ-1741663979557-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:34:04.007
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="21HXOtAQldZ_h7oAURF2Ay.KK5lx_ePzIbre8j6St_M-1741664043960-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:35:08.325
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="mnb.j27gpgsR09ooxqMOhVExWqCHrgjphhNKTeT.9rk-1741664108278-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:36:12.672
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="xWEifEPSKuPonSZ4jd1O517hdByJYqfIX32G91FDv6M-1741664172628-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:37:16.963
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="p5Ru85iKzn4WaUuRBwLlqWvPVCaG0fha73E0kXyJDUQ-1741664236918-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:37:32.145
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:37:32.146
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:37:36.271
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:37:36.272
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:38:21.259
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="FOX5EgN3Nk5uorPeKSvdXkFMNZ9Pz8aQtb_t6Mu7Obk-1741664301214-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:38:40.367
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:38:40.367
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:39:03.100
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:39:03.100
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:39:25.529
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid=".VloO3a4.luZFdfBgC86ok8z8KgACPs0ulPyJNEnzKw-1741664365484-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:40:28.337
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:40:28.337
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:40:29.810
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="orHM4PljZC_4hJO3h2pc.IH56CgvbP49WpgUFpXnYQ8-1741664429765-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:41:09.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:41:09.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:41:34.136
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KRwPwqZ_Lk.Cn6_EWN6mhrfWGu6ngVTeA7qWTI7oLtY-1741664494087-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:41:44.127
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:41:44.128
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:41:49.784
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:41:49.785
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:42:38.419
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="2zNFAnuSA4zyCXuLCja5l1pk7euRX50Hh8jUg_E7YKY-1741664558374-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:43:42.756
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="RoRDrs7J_.n1PzHz100gRfVWa6dxGkLPOcrvJsvNO6E-1741664622710-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:43:51.830
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:43:51.831
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:44:47.091
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="TJJhcUpiQRWcE40ZdVmfFnfGDMTARQ_UpfI6ag8JfY8-1741664687044-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:45:23.326
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:45:23.327
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:45:29.492
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:45:29.493
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:45:34.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:45:34.110
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:45:51.377
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="VOCSvjQzKcGR4qDPjdhxW.92REV0ypcZztUkBeC8J9o-1741664751332-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:46:55.701
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="aEr1AEOUkYB0Cfm3qOy7iAFScvsQf9CuRsyBiYuZkzI-1741664815656-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:48:00.059
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="S__ASVO7njLE4OPep5N9joWHzzBit2afvdjTThZZCJ4-1741664880014-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:49:04.340
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Gy4uH9SpqDph.tRj4Cxs12CFPRrtRkZEBucW7IjUdEk-1741664944294-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:49:37.227
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:49:37.228
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:50:08.686
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="7OlB9cUrup0qZZ7pFuEXUJasIq07kFRWsN5wce0so4Y-1741665008641-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:50:38.030
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:50:38.031
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:51:12.962
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="IRha7_ec5JDiKYZYHNtqSJ2qWZDhq3VKFkJT2J7iTFg-1741665072916-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:51:14.843
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:51:14.844
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:51:25.966
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:51:25.967
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:52:17.348
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="vs8Jbd0G3cAyhQfuyLr3YA8Xht1w7wCyPjk9HYMLDpA-1741665137295-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:52:19.551
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:52:19.552
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:52:28.648
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:52:28.650
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:52:45.372
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:52:45.373
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:53:21.687
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ma4SRXhRC4xcDGxQZ2BnKeMNjdTmkl5wH.w1bo8n.yE-1741665201641-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:53:26.498
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:53:26.500
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:53:48.449
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:53:48.450
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:07.374
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:07.375
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:23.658
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:23.659
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:54:26.118
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="HitTAidgX1zYghLYxS44glCF63Psla7m7zuItuWnYJc-1741665266071-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:29.649
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:29.650
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:33.351
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:54:33.351
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:55:30.402
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="65o4N7ff4R.MK9ICTxvhbk07BickTzYS9VrPvmkhJEM-1741665330356-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:56:20.266
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:56:20.266
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:56:34.714
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="8peycUii2IT1SQObZVdVDvZCqglhBbWSWuqiSPWLT.s-1741665394669-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:56:51.216
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:56:51.217
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:56:55.805
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:56:55.808
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:07.004
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:07.004
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:21.418
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:21.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:36.430
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:36.430
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:57:39.016
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="3VG.ClQhHbOwFivc.VqDkKlmxt3fDrAFcw1rAmf5zz8-1741665458969-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:40.265
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:57:40.266
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:16.237
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:16.238
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:26.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:26.622
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:38.126
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:38.127
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:58:43.302
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="QLN_a3NneIARptv07nrXCz4AtCeAdf5pyTjWnTSd75A-1741665523256-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:45.980
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 22:58:45.980
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 22:59:47.608
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="vhGqvfbxZ0W3SFIfj5YTBmhdEwBGg4edMV.8xy3GT00-1741665587562-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:04.432
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:04.433
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:06.423
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:06.423
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:46.290
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:46.291
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:51.288
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:00:51.289
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:00:51.917
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="jEELfmJy1i6rw1LbqYOMrf.8gWFkv.L_5enx4qIJpac-1741665651872-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:16.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:16.988
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:34.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:34.421
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:36.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:36.987
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:42.793
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:01:42.795
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:01:56.246
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="4f30qTOUMu4lezaIDkWkNHSbqbJOVXYd2_Cb6s96TZc-1741665716198-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:05.901
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:05.901
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:21.536
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:21.536
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:30.334
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:30.335
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:46.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:46.325
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:58.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:02:58.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:03:00.563
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="0FVpXcNlDG9.SW2DTfshLihNLPhIQqjoIyd6CJ3eGrc-1741665780517-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:03:33.361
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:03:33.362
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:03:48.014
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:03:48.015
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:04:05.033
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="juctRuDCSEZRA7UGN9FQJcavw9_jHh0IMMG0_X1j7Ns-1741665844987-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:04:10.505
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:04:10.505
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:05:09.318
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="AnxH_5gYwLWa99gmd3kzS69FMqwabfynE_0nMgh0cAY-1741665909272-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:05:13.612
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:05:13.612
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:05:57.296
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:05:57.297
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:06:11.002
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:06:11.003
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:06:13.615
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="UTFdcHJ_YZsDJR6vqpNMKVXwauA2IRYVfFeFjRCS._k-1741665973570-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:07:17.898
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="pI8zMXHAFmoRi0CVQ_Tohr94qBoxQDklORpNisHj6TE-1741666037852-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:07:55.849
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:07:55.850
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:08:18.462
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:08:18.463
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:08:22.167
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="i5bCpAmVRoK_3OltAQ5X9_UFEw6bnwKaxhMj_rXVMKU-1741666102122-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:09:23.082
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:09:23.083
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:09:26.443
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="jlV3KJm.5azqCZt9RNFHaQvaAocdb2OIQ.JxqSTZ1qU-1741666166397-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:10:28.441
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:10:28.442
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:10:30.734
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="b5JzNA4dIaM6BtSPMXv54ETrrRiArErJA1CobPukGZg-1741666230688-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:10:35.515
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:10:35.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:11:35.068
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Lfo20kqT8FYTMZGGHC4ev1vNMybd7GLv.rdWxgK3tv0-1741666295022-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:12:39.460
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="A9WHT3KpqTEuBlcH0XNwONKZPCVy198Nvva4IcjNohs-1741666359414-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:13:43.761
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="E5jjB0.1eZZX3kdbQqwR3q19XbVfhid2tMPteR6hklg-1741666423715-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:14:48.062
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sFNHrXf.pTbA20xrbaVTmUzrsPAzk0wezJpFYxFLLdI-1741666488017-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:15:52.382
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="H1LAXLut7sgpdoMzg05cq5kH4WZjNZbXIctoWaBfs3A-1741666552334-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:16:56.678
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="vA.3N_QoXa5KrxMAMt23g6aLkCDaZrXvNBRk3xLtCxA-1741666616632-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:18:00.968
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="yQ_rTrI9UbG1bt8AEmn3xI6nUrShupZitUSdKmywvpg-1741666680923-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:19:05.329
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="j6mb0cMajbC39K87TuAeftyaCjIFgyZtfNg5UcM9uIU-1741666745282-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:20:09.685
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="zVqOSQELI6Ec0SiI4oYyl6dMgdAVzxN3ZmUopGHURyc-1741666809627-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:21:14.171
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="zes9_bw6TTX74KZ35Jw.X4FPVZUg4HUCPVzWuTK.234-1741666874125-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:22:18.543
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid=".Jdc._2ZNR9sENszbjbiStLiJA6XJxt4DlZzSBc8CPo-1741666938497-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:23:22.977
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="RhTkVohxMZo_FJiyftP8PXcpv3QHj0ktwrtFTWt4.Oo-1741667002930-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:24:27.440
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="RpquyD3YcgWzA0aXFcgN5x5EUcoO8vVVVSr8R3TMZUw-1741667067395-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:25:31.813
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="U4d1Oc5DEi3SiQvM4jVTWL5eIWt1nfDoCSekbaCq5VY-1741667131766-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:26:28.302
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:26:28.303
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:26:29.340
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:26:29.341
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:26:36.114
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="iL3hTALM4jG_8uP2Rr_gfXXgDsfmcn0lWO3i4thjoj0-1741667196068-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:26:51.747
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:26:51.748
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:27:21.706
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:27:21.708
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:27:40.364
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="eZItIKy47LUBVQzQDrZ7BS3DYHtRkTchY8bYr5wiR.k-1741667260311-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:28:33.965
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:28:33.966
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:28:44.588
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ih2d6WZk_Lji9EZNTGksRs6BQdxeqLM6450rbl1_pYo-1741667324543-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:29:12.913
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:29:12.914
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:29:48.874
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="_CfFGW8wznrMEJL9KpEZT2Cx6xYiHpe8o1rFRIlXAoI-1741667388828-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:29:54.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:29:54.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:30:00.513
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:30:00.514
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:30:23.551
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:30:23.552
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:30:53.099
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid=".NRvCRgTBlhnJLEI.dp9vGZyoGGhmj.UtrBmITLVpTQ-1741667453054-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:31:19.261
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:31:19.262
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:31:35.643
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:31:35.644
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:31:57.328
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="34qqqwl3Pj6Sz2qOpEzVFEuRflQlE_kAfpR45bt0r7A-1741667517283-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:33:01.554
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="KV0h75LokOFMThb1GQu3NYIGwK8.dRiBgOcHOk_eR_A-1741667581498-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:34:05.800
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="gYU4HIIpHwZnnJriOeZPhj8GMMOk6LGihTD9bbbm4Zc-1741667645750-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:35:10.040
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="zMu8y6KcgGxyB3d.POLlf4z.nCx.w5YMFboGwk1A.G0-1741667709995-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:36:14.305
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="kJ_PvlIxGQBTFMGBDC0wrSNtfVlYdG40eHMnqVGJ3gU-1741667774259-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:37:18.637
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="z4Uio5u8rttkLk4AtfbOIrZlJE78YRyaS2DJ8R1z7JQ-1741667838590-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:38:22.951
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="LLJIdi2YiteVeo3gzvUdc3SLut47DnCRuFXRBFpc31A-1741667902905-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:39:27.198
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="hoo39xoL_6hgd3tqxEl4s8Er_4dV1MHYX5M3ipAugtw-1741667967151-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:40:31.437
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="hDZoQPbVBG__R.4rfQ5ddwjb_69_xri7ZYstpqkxrT0-1741668031391-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:41:35.704
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="5pkPCq4zM9pI.daLrns74ciwBZmWK3l88DUrJuH1B5k-1741668095651-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:42:26.618
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:42:26.621
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:42:39.932
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="BERyuNr1FugJLXLznnYp8TdlriNX1dwbp.Y289moWLE-1741668159886-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:43:44.162
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="YfeJKVvIN.I7A3xlVOGb42zcdAwhEipOAUlybTBV3lw-1741668224117-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:44:48.400
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="YlU2Y9UwFj8ePr5a4UYalqvrtpdgF0TehrlwOPrY2K4-1741668288351-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:45:52.638
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="efuEdw9G1i1FxGiJj124aYL2A2I_0G2Fd.CwgF0yr6A-1741668352592-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:46:56.868
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="QMqrmbgGHZQOWCe0NxdVpAWjxO.Yl678LIOt.o5zifM-1741668416821-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:48:01.123
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Vx8eEcC.7Tk_37uvCcuTyCq8npecHB3cpB37DVidD.Y-1741668481078-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:49:05.361
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="wKuQuViMpR1otf_30x42rtJLfIbyP6BZTMWkZQU85_A-1741668545316-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:50:09.596
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="4y4PaRRrTJNA.W9qI8GLvfgwQaI5vuwm0l65Ooeby4Q-1741668609549-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:51:13.832
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="vjeWHwO0E4XBSyl1M_eO2MOPewJavl2G3TxjVyknMXg-1741668673786-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:51:35.238
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:51:35.239
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:52:18.084
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="In7_l5um3Mxz68y2GkjAPT3mCi9GqiQ_E2D8Rs4CbqE-1741668738036-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:53:22.319
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="nSpLg2Frc9ob0BEP7Lv0bN69U_0jNBVolu0OIvpIRAs-1741668802273-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:54:13.945
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:54:13.946
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:54:26.544
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="wo1H09T_zo00X_SoQ4.gYYoL5Tab_bPi578oq79tTKk-1741668866500-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:54:46.716
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-10 23:54:46.718
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-10 23:55:30.756
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sR.N81H_2AsD37gGgo29..FJa8tXOSTenGCZyHGdLFQ-1741668930711-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+!SESSION 2025-03-12 00:58:56.619 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-03-12 00:59:08.946
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-03-12 00:59:08.946
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6bf28f61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64dcf763,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-12 00:59:15.581
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\findy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 00:59:17.480
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ZGfmmxLz2Q_y1c1ne9vdJNLjhxBFYqHo6k4TR0.NuJ8-1741759156414-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 00:59:19.717
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="M3YyQ5K5urE1McCDE6963AiXw143uUYKH59huf2i3Js-1741759158675-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 00:59:23.938
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="2NIjSu2uG7DLe2ANUDTlku2QfUiOBf9b_VQxF.e_Kck-1741759162887-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 00:59:32.180
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="kqd6kMYkX11rM5_Ccf3dVI3Nk67MzueOlnHJtESKp1A-1741759171137-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 00:59:48.406
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="65n9mqcWK20YVgbbaETVZNyb2WL1hJcMG6DJ4Y1qGGM-1741759187365-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:00:20.710
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="v09gpkTZrC9XRr0Ugqpco16sqyUj9KbeHrJFaRxqe.s-1741759219673-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-12 01:01:07.464
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-12 01:01:07.469
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-12 01:01:20.963
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-12 01:01:20.965
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:01:25.005
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="cFuq6.eQMczskAb9BKXp4Wx4huC1DOK4ug3RxzMu7Ag-1741759283960-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:02:29.367
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ChYk65lWG4JOHyineJl8uHMnEXL.CVD56IiS_TlxS.Q-1741759348323-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:03:33.710
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Wf_Qc8toueR5y5vvsZtR6r7G0CxKgGctKTGzLiMTw4s-1741759412665-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:04:37.995
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="ckhnwX0I.ToFlVnzROMM4ljuBRRJx_NG16DL6vTSjkc-1741759476951-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:05:42.289
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="O5g7GEeLWCGXbypCbmV9LDKENPnaif0Bx.xfrDiR23Q-1741759541246-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:06:46.633
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="MTGf.fnzSYbf.H5uVZFGFWYHv9aoZsxxsrvfJotzE.k-1741759605591-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:07:50.931
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="sQefT4a8NoAoImJw_AAgaspnIhN1WNl_TDVyJ2q9Ngc-1741759669888-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+
+
+!ENTRY org.apache.log4j 2 0 2025-03-12 01:08:55.217
+!MESSAGE org.apache.http.client.protocol.ResponseProcessCookies  - Cookie rejected [_cfuvid="Uq0CvMuQh19W269hVfoAJeVC3s.r_ajnMygPDULuowk-1741759734175-0.0.1.1-604800000", version:0, domain:cdn.webflow.com, path:/, expiry:null] Illegal 'domain' attribute "cdn.webflow.com". Domain of origin: "go.codetogether.com"
+

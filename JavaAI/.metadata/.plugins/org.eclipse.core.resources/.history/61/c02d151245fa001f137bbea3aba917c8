@@ -1,0 +1,17 @@
+package ann;
+
+//acts as a view into a parent tensor
+//holds no actual data but limits the bounds of a tensor such that
+//iteration and tensor operations are limited to a subset of that tensor
+
+
+//IMPORTANT: SUBTENSORS ARE READ ONLY!
+public class SubTensor {
+	Shape sub;
+	Tensor parent;
+	
+	public SubTensor(Shape sub, Tensor parent) {
+		this.parent = parent;
+		this.sub = sub;
+	}
+}

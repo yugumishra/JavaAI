@@ -1,0 +1,182 @@
+package ann;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+//encapsulates an entire neural network
+//includes references to the input and output of the network
+public class Ann {
+	//references to layers
+	Layer input;
+	Layer output;
+	
+	Gradient grad;
+	
+	int numLayers;
+	
+	boolean gpuAccelerated;
+	
+	float learningRate;
+	
+	public Ann(Layer input, Layer output, boolean gpuAccelerated, float learningRate) {
+		this.input = input;
+		this.output = output;
+		
+		this.gpuAccelerated	= gpuAccelerated;
+		
+		//intialize the data tensors right now
+		// as well as the gradient
+		if(!gpuAccelerated) {
+			int numTensors = 0;
+			numLayers = 0;
+			//loop through each layer
+			//input is guaranteed to be an input layer here, so skipping it anyway is good
+			//initialize current layer (with learnable weights) as the next layer
+			Layer current = input.getNext();
+			while(current != null) {
+				
+				Tensor[] w = current.weightInit(true);
+				current.weights = w;
+				
+				numTensors += LayerEnum.numTensors(current);
+				numLayers++;
+				
+				current = current.getNext();
+			}
+			grad = new Gradient(this, numTensors);
+		}
+		this.learningRate = learningRate;
+	}
+	
+	//prints a summary of each layer
+	public void printSummary() {
+		//iterate through
+		Layer current = input;
+		while(current != null) {
+			//print
+			System.out.println(current);
+			current = current.getNext();
+		}
+		System.out.println();
+	}
+	
+	public Tensor forward(Tensor in) {
+		Layer current = input.getNext();
+		//avoid destroying the reference
+		Tensor curr = in;
+		while(current != null) {
+			curr = current.forward(curr);
+			current = current.getNext();
+		}
+		return curr;
+	}
+	
+	//assume in has shape (batch size, input shape)
+	//and expected has shape (batch size, output shape)
+	public float backprop(Tensor in, Tensor expected) {
+		//transform input to output
+		Tensor out = forward(in);
+		
+		//subtract the ground truth to get error
+		out.sub(expected);
+		
+		//calculate the loss across the batch
+		float loss = 1.0f / (2.0f) * out.MSEsum();
+		
+		//prepare gradient for backprop
+		grad.initBackprop();
+		
+		
+		//backprop through the layers using the backward method (backprops layer errors)
+		Layer curr = output;
+		while(curr != null) {
+			out = curr.backprop(grad, out);
+			curr = curr.getPrev();
+		}
+		
+		//all gradients now accumulated in grad
+		//return the batch loss
+		return loss;
+	}
+	
+	//gradient descent
+	//applies the gradient changes to all parameters in the model
+	public void gradientUpdate(int batchSize) {
+		//skip input
+		Layer current = input.getNext();
+		
+		int tensorIndex = 0;
+		//iterate through the layers
+		while(current != null) {
+			//check if no trainable params
+			int numWeightTensors = LayerEnum.numTensors(current);
+			if(numWeightTensors != 0) {
+				//gradient update
+				for(int i = 0; i< numWeightTensors; i++) {
+					current.gradientUpdate(grad.gradient[tensorIndex++], i, learningRate);
+				}
+			}
+			
+			
+			current = current.getNext();
+		}
+	}
+	
+	public void train(Tensor in, Tensor expected, int numEpochs, int batchSize) {
+		if(gpuAccelerated) /*later*/return;
+		
+		int datasetSize = in.shape.getDim(0);
+
+		int numBatches = (int) Math.floor(datasetSize / batchSize);
+		
+		//form samples
+		ArrayList<Integer> samples = new ArrayList<Integer>();
+		for(int i = 0; i< datasetSize; i++) samples.add(i);
+		//form sublists (for batch dataset tensor creation)
+		ArrayList<List<Integer>> subLists = new ArrayList<List<Integer>>();
+		for(int i = 0; i < numBatches; i++) {
+			List<Integer> subList = samples.subList(i * batchSize, (i+1)*batchSize);
+			subLists.add(subList);
+		}
+		
+		grad.batchSize = batchSize;
+		
+		
+		for(int epoch = 1; epoch <= numEpochs; epoch++) {
+			//mark start time
+			long start = System.currentTimeMillis();
+			
+			//shuffle sampling order
+			Collections.shuffle(samples);
+			
+			float epochAvg = 0.0f;
+			
+			//start batches
+			for(int batch = 0; batch < numBatches; batch++) {
+				//get the batch's dataset
+				RandomAccessTensor batchSet = new RandomAccessTensor(in, subLists.get(batch), true);
+				RandomAccessTensor batchAnswers = new RandomAccessTensor(expected, subLists.get(batch), true);
+				
+				float batchLoss = backprop(batchSet, batchAnswers);
+				System.out.println(batchLoss);
+				epochAvg += batchLoss;
+				
+				gradientUpdate(batchSize);
+				
+				//now zero the gradient
+				grad.finishBackprop();
+			}
+			
+			long end = System.currentTimeMillis() - start;
+			
+			//scale avg
+			epochAvg /= numBatches;
+			
+			//print time taken
+			System.out.println("Epoch " + (epoch) + " took " + (((int) end) / 1000.0f) + " seconds.\nAccuracy was " + epochAvg + "\n");
+
+			learningRate *= 0.85f;
+		}
+	}
+}

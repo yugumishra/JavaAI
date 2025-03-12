@@ -1,0 +1,130 @@
+package ann;
+
+//acts as a view into a parent tensor
+//holds no actual data but limits the bounds of a tensor such that
+//iteration and tensor operations are limited to a subset of that tensor
+public class SubTensor extends Tensor{
+	Tensor parent;
+	
+	public SubTensor(Shape s, Tensor parent) {
+		super(s);
+		this.parent = parent;
+	}
+	
+	@Override
+	public void init() {
+		rank = shape.rank();
+		strides = new int[rank];
+
+		//start with the last stride being 1
+		strides[0] = 1;
+
+		// compute strides by successive multiplications
+		for (int i = 1; i < rank; i++) {
+			strides[i] = strides[i - 1] * shape.getDim(i - 1);
+		}
+		
+		//no data init (no data lol)
+	}
+	
+	private boolean validIndex(int[] ind) {
+		if(ind.length != shape.rank()) return false;
+		for(int i = 0; i< ind.length; i++) {
+			if(ind[i] >= shape.getDim(i)) return false;
+		}
+		return true;
+	}
+	
+	@Override
+	public void randomInit(float skew) {
+		return;
+	}
+	
+	@Override
+	public float at(int[] ind) {
+		if(!validIndex(ind)) {
+			System.err.println("Invalid index in subtensor!!");
+			for(int i = 0; i< ind.length; i++) System.err.print(ind[i] + ", ");
+			System.err.println();
+		}
+		return parent.at(ind);
+	}
+	
+	@Override
+	public void add(int[] ind, float n) {
+		if(!validIndex(ind)) {
+			System.err.println("Invalid index in subtensor!!");
+			for(int i = 0; i< ind.length; i++) System.err.print(ind[i] + ", ");
+			System.err.println();
+		}
+		parent.add(ind, n);
+	}
+	
+	@Override
+	public void mul(int[] ind, float n) {
+		if(!validIndex(ind)) {
+			System.err.println("Invalid index in subtensor!!");
+			for(int i = 0; i< ind.length; i++) System.err.print(ind[i] + ", ");
+			System.err.println();
+		}
+		parent.mul(ind, n);
+	}
+	
+	@Override
+	public void set(int[] ind, float n) {
+		if(!validIndex(ind)) {
+			System.err.println("Invalid index in subtensor!!");
+			for(int i = 0; i< ind.length; i++) System.err.print(ind[i] + ", ");
+			System.err.println();
+		}
+		parent.set(ind, n);
+	}
+	
+	@Override
+	//global operations on tensor
+	public void mul(float s) {
+		for(int i = 0; i< data.length; i++) data[i] *= s;
+	}
+
+	//element wise add on tensor (only defined when shapes the same)
+	public void add(Tensor a) {
+		int ones = a.shape.containsOnes();
+		if(ones == -1 && a.shape.equals(this.shape) == false) {
+			//invalid add
+			System.err.println("invalid add on tensors");
+			return;
+		}else if(ones != -1) {
+			//broadcasting
+			for(int i =0 ; i< data.length; i++) {
+				int[] ind = calcInverseIndex(i);
+				ind[ones] = 0;
+				data[i] += a.at(ind);
+			}
+		}
+
+		for(int i = 0; i< data.length; i++) {
+			data[i] += a.data[i];
+		}
+	}
+
+	//same as above but for sub
+	public void sub(Tensor a) {
+		int ones = a.shape.containsOnes();
+		if(ones == -1 && a.shape.equals(this.shape) == false) {
+			//invalid add
+			System.err.println("invalid add on tensors");
+			return;
+		}else if(ones != -1) {
+			//broadcasting
+			for(int i =0 ; i< data.length; i++) {
+				int[] ind = calcInverseIndex(i);
+				ind[ones] = 0;
+				data[i] -= a.at(ind);
+			}
+		}
+
+		for(int i = 0; i< data.length; i++) {
+			data[i] -= a.data[i];
+		}
+	}
+}

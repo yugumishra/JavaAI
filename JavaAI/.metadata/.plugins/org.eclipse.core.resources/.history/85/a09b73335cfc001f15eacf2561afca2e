@@ -1,0 +1,25 @@
+package ann;
+
+import java.util.List;
+
+//a subclass of tensor that access a parent tensor randomly
+//only across the batch dimension
+public class RandomAccessTensor extends Tensor {
+	Tensor parent;
+	List<Integer> samples;
+
+	public RandomAccessTensor(Tensor parent, Shape shape, List<Integer> samples) {
+		super(shape);
+		this.parent = parent;
+		this.samples = samples;
+	}
+
+	@Override
+	int calcIndex(int[] ind) {
+		int index = 0;
+		for(int i =0 ; i< ind.length; i++) {
+			index += strides[i] * ind[i];
+		}
+		return index;
+	}
+}
