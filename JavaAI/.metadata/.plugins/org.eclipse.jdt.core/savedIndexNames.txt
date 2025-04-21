@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\findy\Desktop\dev\JavaAI\.metadata\.plugins\org.eclipse.jdt.core
-2460742253.index
-3460880079.index
