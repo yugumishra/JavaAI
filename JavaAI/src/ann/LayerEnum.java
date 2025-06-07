@@ -1,7 +1,7 @@
 package ann;
 
 public enum LayerEnum {
-	INVALID(-1), INPUT(0), DENSE(1), CONVOLUTION(2), BATCHNORM(3), ACTIVATION(4);
+	INVALID(-1), INPUT(0), DENSE(1), CONVOLUTION(2), BATCHNORM(3), ACTIVATION(4), DROPOUT(5);
 	
 	private int id;
 	
@@ -17,8 +17,9 @@ public enum LayerEnum {
 		if(classType == Input.class) return 0;
 		if(classType == Dense.class) return 1;
 		if(classType == Input.class) return 2;
-		if(classType == Input.class) return 3;
+		if(classType == BatchNormalization.class) return 3;
 		if(classType == Activation.class) return 4;
+		if(classType == Dropout.class) return 5;
 		return -1;
 	}
 	
@@ -26,8 +27,9 @@ public enum LayerEnum {
 		if(id == 0) return Input.class;
 		if(id == 1) return Dense.class;
 		if(id == 2) return Input.class;
-		if(id == 3) return Input.class;
+		if(id == 3) return BatchNormalization.class;
 		if(id == 4) return Activation.class;
+		if(id == 5) return Dropout.class;
 		return null;
 	}
 	
@@ -35,8 +37,9 @@ public enum LayerEnum {
 		if(classType == Input.class) return INPUT;
 		if(classType == Dense.class) return DENSE;
 		if(classType == Input.class) return CONVOLUTION;
-		if(classType == Input.class) return BATCHNORM;
+		if(classType == BatchNormalization.class) return BATCHNORM;
 		if(classType == Activation.class) return ACTIVATION;
+		if(classType == Dropout.class) return DROPOUT;
 		return INVALID;
 	}
 	
@@ -57,12 +60,14 @@ public enum LayerEnum {
 		case 2:
 			return "Convolutional";
 		case 3:
-			return "BatchNormalization";
+			return "Batch Normalization";
 		case 4:
 			String str = "Activation (";
 			String act = ((Activation) l).func.toString();
 			str +=  act+ ")";
 			return str;
+		case 5:
+			return "Dropout";
 		default:
 			return "Invalid ";
 		}
@@ -79,6 +84,8 @@ public enum LayerEnum {
 		case BATCHNORM:
 			return 0;
 		case ACTIVATION:
+			return 0;
+		case DROPOUT:
 			return 0;
 		default:
 			return -1;

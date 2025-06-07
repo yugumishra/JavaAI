@@ -52,6 +52,10 @@ public class Shape {
 			this.dims[i] = dims[i];
 		}
 	}
+
+	public Shape(Shape s) {
+		this(s.dims);
+	}
 	
 	//transform symbolic to datamoving shape dsecriptor
 	public void batch() {

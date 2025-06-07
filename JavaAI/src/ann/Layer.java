@@ -14,6 +14,8 @@ public abstract class Layer {
 	
 	//tensor holding this layer's learnable parameters
 	Tensor[] weights;
+	//tensor holding the gradient to this layer's params
+	Tensor[] gradients;
 	
 	//tensor holding this layer's activation
 	Tensor activation;
@@ -38,9 +40,10 @@ public abstract class Layer {
 		weights = null;
 		activation = null;
 		ann = null;
+		gradients = null;
 	}
 	
-	public Tensor[] weightInit(boolean random) {
+	public Tensor[] weightInit() {
 		return null;
 	}
 	
@@ -68,7 +71,7 @@ public abstract class Layer {
 	//has each layer store the activation of itself in a variable (for the backprop pass to use)
 	public abstract Tensor forward(Tensor in);
 	
-	public abstract Tensor backprop(Tensor in, float lr);
+	public abstract Tensor backprop(Tensor in, Optimizer optimizer);
 	
 	public abstract int numTrainableParams();
 	

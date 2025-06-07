@@ -2,13 +2,7 @@ package main;
 
 import java.util.Scanner;
 
-import ann.Activation;
-import ann.ActivationFunction;
-import ann.Ann;
-import ann.Dense;
-import ann.Input;
-import ann.Shape;
-import ann.Tensor;
+import ann.*;
 
 public class Run {
 	public static void main(String[] args) {
@@ -41,11 +35,14 @@ public class Run {
 		
 		Input input = new Input(new Shape(784));
 		
-		Dense hidden1 = new Dense(input, new Shape(20));
-		Activation act1 = new Activation(hidden1, ActivationFunction.RELU);
+		Dense hidden1 = new Dense(input, new Shape(30), false);
+		BatchNormalization batch1 = new BatchNormalization(hidden1);
+		Activation act1 = new Activation(batch1, ActivationFunction.RELU);
+		Dropout drop1 = new Dropout(act1, 0.5f);
 		
-		Dense hidden2 = new Dense(act1, new Shape(10));
-		Activation act2 = new Activation(hidden2, ActivationFunction.SOFTMAX);
+		Dense hidden2 = new Dense(drop1, new Shape(10), false);
+		BatchNormalization batch2 = new BatchNormalization(hidden2);
+		Activation act2 = new Activation(batch2, ActivationFunction.SOFTMAX);
 
 		Ann ann = new Ann(input, act2);
 		
@@ -61,24 +58,28 @@ public class Run {
 		user.close();
 		
 		
-		Tensor[] trainSet = Utility.readSet("train-images.idx3-ubyte", "train-labels.idx1-ubyte");
+		Tensor[] trainSet = Utility.readSet("JavaAI/train-images.idx3-ubyte", "JavaAI/train-labels.idx1-ubyte");
+		
+		//create optimizer object for training hyperparams
+		Optimizer optimizer = new AdamOptimizer(3e-2f, 0.9f, 0.9f, 0.999f, 0.001f);
+
+		//create metric tracker for tracking metrics
+		Metrics tracker = new Metrics(true, true);
+		
 		System.out.println("\nTraining beginning!");
-		ann.train(trainSet[0], trainSet[1], numEpochs, batchSize, 5e-2f);
+		ann.train(trainSet, 0.1f, numEpochs, batchSize, optimizer, tracker);
 		
-		ann.save("MNIST-0.0.1");
-		
-		Tensor[] testSet = Utility.readSet("train-images.idx3-ubyte", "train-labels.idx1-ubyte");
-		System.out.println("Validation Set Accuracy: " + 100*ann.test(testSet[0], testSet[1]));
+		ann.save("JavaAI/MNIST-0.1.1");
 	}
 	
 	public static void loadTest() {
-		Tensor[] testSet = Utility.readSet("t10k-images.idx3-ubyte", "t10k-labels.idx1-ubyte");
-		Ann ann = Ann.load("MNIST-0.0.1");
+		Tensor[] testSet = Utility.readSet("JavaAI/t10k-images.idx3-ubyte", "JavaAI/t10k-labels.idx1-ubyte");
+		Ann ann = Ann.load("JavaAI/MNIST-0.1.1");
 		ann.printSummary();
 		
 		float acc = ann.test(testSet[0], testSet[1]);
 		
-		System.out.println("Validation Set Accuracy: " + 100*acc);
+		System.out.println("Test Set Accuracy: " + 100*acc);
 	}
 	
 	

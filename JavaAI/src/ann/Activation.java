@@ -85,7 +85,7 @@ public class Activation extends Layer {
 	}
 
 	@Override
-	public Tensor backprop(Tensor in, float lr) {
+	public Tensor backprop(Tensor in, Optimizer optimizer) {
 		switch(func) {
 		case RELU:
 			//fall through on purpose

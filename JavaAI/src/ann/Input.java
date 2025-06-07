@@ -23,7 +23,7 @@ public class Input extends Layer {
 	}
 	
 	@Override
-	public Tensor backprop(Tensor in, float lr) {
+	public Tensor backprop(Tensor in, Optimizer optimizer) {
 		//not needed
 		return null;
 	}

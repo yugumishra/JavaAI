@@ -15,7 +15,7 @@ import java.util.List;
 public class Ann {
 	
 	//ann encoding version number
-	public static int VERSION_NUMBER = 1;
+	public static int VERSION_NUMBER = 2;
 	
 	// references to layers
 	Layer input;
@@ -24,8 +24,13 @@ public class Ann {
 	int numLayers;
 
 	boolean gpuAccelerated;
+	boolean training = true;
 
 	public Ann(Layer input, Layer output) {
+		this(input, output, true);
+	}
+	
+	private Ann(Layer input, Layer output, boolean weightSet) {
 		this.input = input;
 		this.output = output;
 
@@ -45,24 +50,16 @@ public class Ann {
 			while (current != null) {
 				current.ann = this;
 
-				Tensor[] w = current.weightInit(true);
-				current.weights = w;
+				if(weightSet == true) {
+					Tensor[] w = current.weightInit();
+					current.weights = w;
+				}
 
 				numLayers++;
 
 				current = current.getNext();
 			}
 		}
-	}
-	
-	private Ann(Layer input, Layer output, boolean weightSet) {
-		this.input = input;
-		this.output = output;
-
-		input.ann = this;
-		output.ann = this;
-
-		this.gpuAccelerated = false;
 	}
 
 	// prints a summary of each layer
@@ -81,7 +78,12 @@ public class Ann {
 		return input;
 	}
 
-	public Tensor forward(Tensor in) {
+	public Tensor predict(Tensor in) {
+		training = false;
+		return forward(in);
+	}
+
+	private Tensor forward(Tensor in) {
 		Layer current = input.getNext();
 		// avoid destroying the reference
 		Tensor curr = in;
@@ -94,83 +96,126 @@ public class Ann {
 
 	// assume in has shape (batch size, input shape)
 	// and expected has shape (batch size, output shape)
-	public float backprop(Tensor in, Tensor expected, float lr) {
+	public void backprop(Tensor in, Tensor expected, Optimizer optimizer, Metrics tracker) {
 		// transform input to output
+		training = true;
 		Tensor out = forward(in);
-
-		// calculate the accuracy metric for this ANN's classification
-		float accuracyAvg = calculateAccuracy(out, expected);
 
 		// subtract the ground truth to get error (cross-entropy if softmax)
 		out.sub(expected);
+
+		if(tracker.doLoss()) {
+			//add cross entropy loss here
+			float crossEntropy = out.MSEsum();
+			tracker.addLoss(crossEntropy);
+		}
 
 		// backprop through the layers using the backward method (backprops layer
 		// errors)
 		Layer curr = output;
 		while (curr != null) {
-			out = curr.backprop(out, lr);
+			//before the weight update, add l2 loss if present
+			if(optimizer.l2) {
+				Tensor[] weights = curr.getWeights();
+				for(int i =0 ; i< weights.length; i++) {
+					tracker.addLoss(weights[i].MSEsum());
+				}
+			}
+			//backpropagate the error
+			out = curr.backprop(out, optimizer);
+			//advance (backwards)
 			curr = curr.getPrev();
 		}
-
-		// all gradients now accumulated in grad
-		// return the accuracy metric
-		return accuracyAvg;
 	}
 
-	public void train(Tensor in, Tensor expected, int numEpochs, int batchSize, float lr) {
+	public void train(Tensor[] dataset, float validationProportion, int numEpochs, int batchSize, Optimizer optimizer, Metrics tracker) {
 		if (gpuAccelerated)
 			/* later */return;
 
+		Tensor in = dataset[0];
+		Tensor expected = dataset[1];
+
+		//get dataset size
 		int datasetSize = in.shape.getDim(0);
+		
+		//transform into training set size by setting aside validationProportion amount of the dataset
+		boolean validating = validationProportion > 0.0f;
+		int trainingSetSize = ((int) ((1.0f-validationProportion) * datasetSize));
 
-		int numBatches = (int) Math.floor(datasetSize / batchSize);
-
-		// form samples
-		ArrayList<Integer> samples = new ArrayList<Integer>();
-		for (int i = 0; i < datasetSize; i++)
-			samples.add(i);
-		// form sublists (for batch dataset tensor creation)
-		ArrayList<List<Integer>> subLists = new ArrayList<List<Integer>>();
-		for (int i = 0; i < numBatches; i++) {
-			List<Integer> subList = samples.subList(i * batchSize, (i + 1) * batchSize);
-			subLists.add(subList);
+		if(!validating) {
+			trainingSetSize = datasetSize;
 		}
 
+		ArrayList<Integer> allIndices = new ArrayList<>();
+		for (int i = 0; i < datasetSize; i++)
+			allIndices.add(i);
+		
+		//shuffle it once
+		Collections.shuffle(allIndices);
+
+		//split the dataset into training and validation
+		List<Integer> trainingIndices = allIndices.subList(0, trainingSetSize);
+		List<Integer> validationIndices = allIndices.subList(trainingSetSize, datasetSize);
+
+		//create the validation tensors
+		Tensor validationSet = new RandomAccessTensor(in, validationIndices, true);
+		Tensor validationAnswers = new RandomAccessTensor(expected, validationIndices, true);
+
+		//create the views into trainingIndices for each batch
+		int numBatches = trainingSetSize / batchSize;
+		ArrayList<List<Integer>> subLists = new ArrayList<>();
+		for (int i = 0; i < numBatches; i++) {
+			int start = i * batchSize;
+			int end = (i + 1) * batchSize;
+			subLists.add(trainingIndices.subList(start, end));
+		}
+
+		//iterate through each epoch
 		for (int epoch = 1; epoch <= numEpochs; epoch++) {
 			// mark start time
 			long start = System.currentTimeMillis();
 
-			// shuffle sampling order
-			Collections.shuffle(samples);
+			// shuffle sampling order (sublists maintain view)
+			Collections.shuffle(trainingIndices);
 
-			float epochAvg = 0.0f;
 			// start batches
 			for (int batch = 0; batch < numBatches; batch++) {
 				// get the batch's dataset
 				RandomAccessTensor batchSet = new RandomAccessTensor(in, subLists.get(batch), true);
 				RandomAccessTensor batchAnswers = new RandomAccessTensor(expected, subLists.get(batch), true);
 
-				float errorMetric = backprop(batchSet, batchAnswers, lr);
-				epochAvg += errorMetric;
+				//backpropagate errors (important part of the learning)
+				backprop(batchSet, batchAnswers, optimizer, tracker);
+
+				//batch is done, increment batch counter in the tracker (for averaging)
+				tracker.batchDone();
+			}
+			if(validating) {
+				//test on validation set (post epoch)
+				float acc = 100 * test(validationSet, validationAnswers);
+				tracker.setAccuracy(acc);
 			}
 
+			//timing end
 			long end = System.currentTimeMillis() - start;
 
-			// scale avg
-			epochAvg /= numBatches;
-
 			// print time taken
-			System.out.println("Epoch " + (epoch) + " took " + (((int) end) / 1000.0f) + " seconds.\nAccuracy was "
-					+ 100 * epochAvg + "%\n");
+			System.out.println("\nEpoch " + (epoch) + " took " + (((int) end) / 1000.0f) + " seconds.");
+			//print out metrics 
+			tracker.printMetrics();
 
-			lr *= 0.85f;
+			//steps the optimizer's decay routine
+			//must be done every epoch (for accurate learning rate scheduling)
+			optimizer.decay();
 		}
 	}
 	
 	//tests this ann on a validation set and reports the accuracy metric
 	public float test(Tensor in, Tensor expected) {
-		//forward the whole batch through
-		Tensor out = forward(in);
+		//PREDICT the whole batch 
+		//important to use predict here, not forward
+		//we are in inference mode, so we want training to be false (only done in predict method)
+		Tensor out = predict(in);
 		
 		//get accuracy
 		float accuracy = calculateAccuracy(out, expected);
@@ -270,8 +315,17 @@ public class Ann {
 				
 				//tensor metadata
 				Tensor[] weights = curr.weights;
+				//write number of tensors
+				int numTensors = (weights == null) ? (0): (weights.length);
+				if(curr.getClass() == BatchNormalization.class) {
+					numTensors += 2;
+				}
+				dos.writeInt(numTensors);
 				if(weights != null) {
 					for(int i = 0; i< weights.length; i++) {
+						//write parameter type
+						dos.writeInt(weights[i].type.get());
+
 						//write shape
 						Shape s = weights[i].shape;
 						//write dimension of this tensor
@@ -285,7 +339,41 @@ public class Ann {
 						for(int ah = 0; ah< weights[i].data.length; ah++) {
 							dos.writeFloat(weights[i].data[ah]);
 						}
+					}
+					if(curr.getClass() == BatchNormalization.class) {
+						BatchNormalization bn = (BatchNormalization) curr;
+
+						//write param type
+						dos.writeInt(bn.runningMean.type.get());
+						//write shape
+						Shape s = bn.runningMean.shape;
+						//write dimension of this tensor
+						dos.writeInt(s.dims.length);
+						//now write each dimension
+						for(int dim = 0; dim < s.dims.length; dim++) {
+							dos.writeInt(s.dims[dim]);
+						}
 						
+						//now write data
+						for(int ah = 0; ah< bn.runningMean.data.length; ah++) {
+							dos.writeFloat(bn.runningMean.data[ah]);
+						}
+
+						//write param type
+						dos.writeInt(bn.runningVar.type.get());
+						//write shape
+						s = bn.runningVar.shape;
+						//write dimension of this tensor
+						dos.writeInt(s.dims.length);
+						//now write each dimension
+						for(int dim = 0; dim < s.dims.length; dim++) {
+							dos.writeInt(s.dims[dim]);
+						}
+						
+						//now write data
+						for(int ah = 0; ah< bn.runningVar.data.length; ah++) {
+							dos.writeFloat(bn.runningVar.data[ah]);
+						}
 					}
 				}
 				//move to next layer
@@ -356,7 +444,7 @@ public class Ann {
 	            	curr = null;
 	            }else if(clas == Dense.class) {
 	            	//create layer and advance
-	            	curr = new Dense(prev, layerShape);
+	            	curr = new Dense(prev, layerShape, true);
 	            	prev = curr;
 	            	curr = null;
 	            }else if(clas == Activation.class) { 
@@ -366,14 +454,24 @@ public class Ann {
 	            	curr = new Activation(prev, func);
 	            	prev = curr;
 	            	curr = null;
-	            }
+	            }else if (clas == BatchNormalization.class) {
+					curr = new BatchNormalization(prev);
+					prev = curr;
+					curr = null;
+				}
 	            
 	            //read tensor shapes
-	            int numTensors = LayerEnum.numTensors(clas);
+	            int numTensors = buff.getInt();
+				if(numTensors == 1 && clas == Dense.class) {
+					((Dense) prev).setBias(false);
+				}
 	            if(numTensors == 0) continue;
 	            Tensor[] tensors = new Tensor[numTensors];
 
 	            for (int t = 0; t < numTensors; t++) {
+					//read parameter type
+					ParameterType type = ParameterType.get(buff.getInt());
+
 	                //read the rank
 	            	int rank = buff.getInt();
 	                int[] dims = new int[rank];
@@ -384,6 +482,8 @@ public class Ann {
 	                //create new tensor
 	                //allocate tensors with shape
 	                tensors[t] = new Tensor(new Shape(dims)); 
+					//set type
+					tensors[t].type = type;
 	                
 	                //read tensor data
 	                tensors[t].init();

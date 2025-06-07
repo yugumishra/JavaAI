@@ -6,11 +6,18 @@ import java.util.Random;
 //generalization of vectors and matrices
 //actual data container though (not just the shape)
 public class Tensor {
+	//shape of the tensor (index is column major, shape is not)
 	Shape shape;
+	//actual data array
 	float[] data;
 
+	//strides/maxindex
 	int[] strides;
+	//order of tensor (1 = vector, 2 = matrix, etc, ...)
 	int rank;
+
+	//holder for the type of weight tensor it is for parameter tensors
+	ParameterType type = null;
 
 	public Tensor(Shape shape) {
 		this.shape = shape;
@@ -40,6 +47,12 @@ public class Tensor {
 	public void zero() {
 		for (int i = 0; i < data.length; i++)
 			data[i] = 0.0f;
+	}
+
+	public void ones() {
+		for (int i =0 ; i< data.length; i++ ){
+			data[i] = 1.0f;
+		}
 	}
 
 	public void init(float[] in) {
@@ -108,6 +121,31 @@ public class Tensor {
 		return i + strides[1] * j;
 	}
 
+	int[] calcInverseIndex2(int flatIndex) {
+		int[] indices = new int[2];
+		indices[1] = flatIndex / strides[1];
+		flatIndex %= strides[1];
+		indices[0] = flatIndex;
+		return indices;
+	}
+
+	//broadcasting speed up
+	float broadcast(int flatIndex, int broadcastAxis, Tensor broadcast) {
+		switch(rank) {
+			case 2:
+			if(broadcastAxis != 0) {
+			 	return broadcast.data[flatIndex / strides[1]];
+			}
+			if(broadcastAxis != 1) {
+				return broadcast.data[flatIndex % strides[1]];
+			}
+			default:
+			int[] ind = calcInverseIndex(flatIndex);
+			ind[broadcastAxis] = 0;
+			return broadcast.at(ind);
+		}
+	}
+
 	// below are methods to update/access tensor values
 	public float at(int[] ind) {
 		return data[calcIndex(ind)];
@@ -135,6 +173,24 @@ public class Tensor {
 			data[i] *= s;
 	}
 
+	public void square() {
+		for (int i = 0; i< data.length; i++) {
+			data[i] *= data[i];
+		}
+	}
+
+	public void sqrt() {
+		for(int i = 0; i< data.length; i++) {
+			data[i] = ((float) Math.sqrt(data[i]));
+		}
+	}
+
+	public void add(float f) {
+		for(int i = 0; i< data.length; i++) {
+			data[i] += f;
+		}
+	}
+
 	// an element wise multiply (not to be confused with tensor multiply)
 	public void elementWiseMultiply(Tensor a) {
 		int ones = a.shape.containsOnes();
@@ -145,15 +201,59 @@ public class Tensor {
 		} else if (ones != -1) {
 			// broadcasting
 			for (int i = 0; i < data.length; i++) {
-				int[] ind = calcInverseIndex(i);
-				ind[ones] = 0;
-				data[i] *= a.at(ind);
+				data[i] *= broadcast(i, ones, a);
 			}
 			return;
 		}
 
 		for (int i = 0; i < data.length; i++) {
 			data[i] *= a.data[i];
+		}
+	}
+
+	//same as above but divide
+	public void elementWiseDivide(Tensor a, float eps) {
+		int ones = a.shape.containsOnes();
+		if (ones == -1 && a.shape.equals(this.shape) == false) {
+			// invalid add
+			System.err.println("invalid div on tensors");
+			return;
+		} else if (ones != -1) {
+			// broadcasting
+			for (int i = 0; i < data.length; i++) {
+				data[i] /= (broadcast(i, ones, a) + eps);
+			}
+			return;
+		}
+
+		for (int i = 0; i < data.length; i++) {
+			data[i] /= (a.data[i] + eps);
+		}
+	}
+
+	//utility func for adam update and batchnorm
+	public void normalize(Tensor a, float eps) {
+		int ones = a.shape.containsOnes();
+		if (ones == -1 && a.shape.equals(this.shape) == false) {
+			// invalid add
+			System.err.println("invalid sub on tensors " + this.shape + ", " + a.shape);
+			return;
+		} else if (ones != -1) {
+			// broadcasting
+			for (int i = 0; i < data.length; i++) {
+				data[i] /= (((float) Math.sqrt(broadcast(i, ones, a)) + eps));
+			}
+			return;
+		}
+		for (int i = 0; i < data.length; i++) {
+			data[i] /= (((float) Math.sqrt(a.data[i])) + eps);
+		}
+	}
+
+	//batchnorm method
+	public void invsqrt(float eps) {
+		for (int i = 0; i < data.length; i++) {
+			data[i] = 1.0f / (((float) Math.sqrt(data[i])) + eps);
 		}
 	}
 
@@ -167,9 +267,7 @@ public class Tensor {
 		} else if (ones != -1) {
 			// broadcasting
 			for (int i = 0; i < data.length; i++) {
-				int[] ind = calcInverseIndex(i);
-				ind[ind.length - ones - 1] = 0;
-				data[i] += a.at(ind);
+				data[i] += broadcast(i, ones, a);
 			}
 			return;
 		}
@@ -189,9 +287,7 @@ public class Tensor {
 		} else if (ones != -1) {
 			// broadcasting
 			for (int i = 0; i < data.length; i++) {
-				int[] ind = calcInverseIndex(i);
-				ind[ones] = 0;
-				data[i] -= a.at(ind);
+				data[i] -= broadcast(i, ones, a);
 			}
 			return;
 		}
@@ -236,6 +332,34 @@ public class Tensor {
 		}
 
 		return sum;
+	}
+
+	//tensor distribution info method
+	//returns 2 tensors that contain the mean (0) and variance (1) of the parameter along that axis
+	public Tensor[] distribution(int axis) {
+		//just assume batch axis lol
+		int stride = strides[strides.length - 1 - axis];
+
+		int batchDim = this.data.length / stride;
+
+		Shape resultant = new Shape(this.shape.dims);
+		resultant.removeAxis(axis);
+		Tensor[] result = new Tensor[2];
+		for(int i = 0; i< 2; i++) {
+			result[i] = new Tensor(new Shape(resultant));
+			result[i].init();
+		}
+
+		for (int i = stride; i < data.length; i++) {
+			result[0].data[i % stride] += data[i] / ((float) batchDim);
+		}
+
+		for (int i = stride; i< data.length; i++) {
+			float diff = (data[i] - result[0].data[i % stride]);
+			result[1].data[i % stride] += diff * diff / ((float) (batchDim));
+		}
+
+		return result;
 	}
 
 	// tensor multiplies
@@ -366,6 +490,22 @@ public class Tensor {
 		}
 
 		return n;
+	}
+
+	//bernoulli mask where prob is the probability it will be a 1
+	public static Tensor randomMask(Shape shape, float prob) {
+		Tensor res = new Tensor(shape);
+		res.init();
+
+		Random rand = new Random();
+		for(int i = 0; i< res.data.length; i++) {
+			float r = rand.nextFloat();
+			if(r > prob) {
+				res.data[i] = 1.0f;
+			}
+		}
+
+		return res;
 	}
 
 	@Override
