@@ -47,7 +47,12 @@ public class Activation extends Layer {
 		case SOFTMAX:
 			//last dimension gets softmaxxed
 			//represents the length of each rank 1 tensor (what we are softmaxxing on)
-			int len = in.strides[1];
+			int len = 0;
+			if(in.rank > 1) {
+				len = in.strides[1];
+			}else {
+				len = in.data.length;
+			}
 			
 			//represents the number of softmaxxes to do (or how many rank 1 tensors are in the tensor)
 			int numMaxes = in.data.length / len;

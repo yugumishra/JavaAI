@@ -56,6 +56,7 @@ public class Tensor {
 	}
 
 	public void init(float[] in) {
+		calcStrides();
 		data = in;
 	}
 
