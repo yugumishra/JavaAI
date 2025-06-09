@@ -400,45 +400,30 @@ public class Tensor {
 
 	// m and v are matrix and vector respectively
 	private static Tensor multiplyMV(Tensor m, Tensor v, boolean matrixTd) {
-		if (!matrixTd) {
-			// compat check
-			if (m.shape.getDim(1) != v.data.length) {
-				System.err.println("Incompatible matrix vector multiply! Matrix size: " + m.shape.toString()
-						+ ", Vector size: " + v.shape.toString());
-			}
-			int outputDim = m.shape.getDim(0);
-			Tensor value = new Tensor(new Shape(outputDim));
-			value.init();
-
-			for (int i = 0; i < outputDim; i++) {
-				float sum = 0.0f;
-				for (int j = 0; j < v.data.length; j++) {
-					sum += m.at(new int[] { i, j }) * v.data[j];
-				}
-				value.data[i] = sum;
-			}
-
-			return value;
-		} else {
-			// compat check
-			if (m.shape.getDim(0) != v.data.length) {
-				System.err.println("Incompatible matrix vector transpose multiply! Matrix size: " + m.shape.toString()
-						+ ", Vector size: " + v.shape.toString());
-			}
-			int outputDim = m.shape.getDim(1);
-			Tensor value = new Tensor(new Shape(outputDim));
-			value.init();
-
-			for (int i = 0; i < outputDim; i++) {
-				float sum = 0.0f;
-				for (int j = 0; j < v.data.length; j++) {
-					sum += v.data[j] * m.at(new int[] { j, i });
-				}
-				value.data[i] = sum;
-			}
-
-			return value;
+		int mRows = !matrixTd ? (m.shape.getDim(1)) : (m.shape.getDim(0));
+		int mCols = !matrixTd ? (m.shape.getDim(0)) : (m.shape.getDim(1));
+		//compat check
+		if(mCols != v.shape.getDim(0)) {
+			//incompatible mv multiply
+			System.err.println("Incompatible matrix-vector multiply! Matrix size: " + m.shape.toString() + ", Vector size: " + v.shape.toString());
+			return null;
 		}
+
+		Shape outputShape = new Shape(mRows);
+		Tensor result = new Tensor(outputShape);
+		result.init();
+
+		//output dim (length of vector)
+		for(int i = 0; i< mRows; i++) {
+			//shared dim (rows of vector, columns of matrix)
+			for(int j = 0; j< mCols; j++) {
+				float mVal = !matrixTd ? m.data[m.calcIndex(i, j)] : m.data[m.calcIndex(j, i)];
+				float vVal = v.data[j];
+				result.data[i] += mVal * vVal;
+			}
+		}
+
+		return result;
 	}
 
 	// a and b are matrices
@@ -460,17 +445,14 @@ public class Tensor {
 
 		for (int i = 0; i < aRows; i++) {
 			for (int v = 0; v < bCols; v++) {
-				float sum = 0.0f;
+				int index = result.calcIndex(i, v);
 				for (int j = 0; j < aCols; j++) {
-					float aVal = !aTransposed ? a.at(a.calcIndex(i, j)) : a.at(a.calcIndex(j, i));
-					float bVal = !bTransposed ? b.at(b.calcIndex(j, v)) : b.at(b.calcIndex(v, j));
+					float aVal = !aTransposed ? a.data[a.calcIndex(i, j)] : a.data[a.calcIndex(j, i)];
+					float bVal = !bTransposed ? b.data[b.calcIndex(j, v)] : b.data[b.calcIndex(v, j)];
 					//float aVal = !aTransposed ? a.at(new int[] { i, j }) : a.at(new int[] { j, i });
 					//float bVal = !bTransposed ? b.at(new int[] { j, v }) : b.at(new int[] { v, j });
-					sum += aVal * bVal;
-					//sum += aVal * bVal;
+					result.data[index] += aVal * bVal;
 				}
-				int index = result.calcIndex(i, v);
-				result.data[index] = sum;
 			}
 		}
 
@@ -531,12 +513,12 @@ public class Tensor {
 		case 2:
 			// mat representation
 			sb.append("[\n");
-			int rows = shape.getDim(0);
-			int cols = shape.getDim(1);
+			int rows = shape.getDim(1);
+			int cols = shape.getDim(0);
 			for (int i = 0; i < rows; i++) {
 				sb.append("  [");
 				for (int j = 0; j < cols; j++) {
-					sb.append(at(new int[] { i, j }));
+					sb.append(data[calcIndex(i,j)]);
 					if (j != cols - 1) {
 						sb.append(", ");
 					}

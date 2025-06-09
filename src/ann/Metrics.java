@@ -13,9 +13,13 @@ public class Metrics {
     boolean doLoss;
     boolean doAccuracy;
 
-    public Metrics(boolean doLoss, boolean doAccuracy) {
+    boolean verbose;
+
+    public Metrics(boolean doLoss, boolean doAccuracy, boolean verbose) {
         this.doLoss = doLoss;
         this.doAccuracy = doAccuracy;
+
+        this.verbose = verbose;
 
         loss = 0.0f;
         accuracy = 0.0f;
@@ -27,6 +31,10 @@ public class Metrics {
 
     public boolean doAccuracy() {
         return doAccuracy;
+    }
+
+    public boolean verbose() {
+        return verbose;
     }
 
     public void addLoss(float l) {
@@ -55,8 +63,10 @@ public class Metrics {
         //average the metrics
         loss /= batches;
 
-        System.out.println("The Loss Average was " + loss + ".");
-        System.out.println("Validation Accuracy was " + accuracy + "%.");
+        if(verbose) {
+            if(doLoss) System.out.println("The Loss Average was " + loss + ".");
+            if(doAccuracy) System.out.println("Validation Accuracy was " + accuracy + "%.");
+        }
     }
 
 }

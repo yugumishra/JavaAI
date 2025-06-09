@@ -62,6 +62,10 @@ public class Ann {
 		}
 	}
 
+	public Ann(Ann c) {
+		
+	}
+
 	// prints a summary of each layer
 	public void printSummary() {
 		// iterate through
@@ -128,7 +132,11 @@ public class Ann {
 		}
 	}
 
-	public void train(Tensor[] dataset, float validationProportion, int numEpochs, int batchSize, Optimizer optimizer, Metrics tracker) {
+	public void train(Tensor[] dataset, int numEpochs, int batchSize, boolean timeTaken, Optimizer optimizer, Metrics tracker) {
+		train(dataset, 0.0f, numEpochs, batchSize, timeTaken, optimizer, tracker);
+	}
+
+	public void train(Tensor[] dataset, float validationProportion, int numEpochs, int batchSize, boolean timeTaken, Optimizer optimizer, Metrics tracker) {
 		if (gpuAccelerated)
 			/* later */return;
 
@@ -158,9 +166,11 @@ public class Ann {
 		List<Integer> validationIndices = allIndices.subList(trainingSetSize, datasetSize);
 
 		//create the validation tensors
-		Tensor validationSet = new RandomAccessTensor(in, validationIndices, true);
-		Tensor validationAnswers = new RandomAccessTensor(expected, validationIndices, true);
-
+		Tensor validationSet = null, validationAnswers = null;
+		if(validating) {
+			validationSet = new RandomAccessTensor(in, validationIndices, true);
+			validationAnswers = new RandomAccessTensor(expected, validationIndices, true);
+		}
 		//create the views into trainingIndices for each batch
 		int numBatches = trainingSetSize / batchSize;
 		ArrayList<List<Integer>> subLists = new ArrayList<>();
@@ -195,12 +205,12 @@ public class Ann {
 				float acc = 100 * test(validationSet, validationAnswers);
 				tracker.setAccuracy(acc);
 			}
-
 			//timing end
 			long end = System.currentTimeMillis() - start;
 
 			// print time taken
-			System.out.println("\nEpoch " + (epoch) + " took " + (((int) end) / 1000.0f) + " seconds.");
+			if(timeTaken) System.out.println("\nEpoch " + (epoch) + " took " + (((int) end) / 1000.0f) + " seconds.");
+			
 			//print out metrics 
 			tracker.printMetrics();
 

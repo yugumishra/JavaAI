@@ -19,7 +19,6 @@ public class Dropout extends Layer{
             mask = Tensor.randomMask(in.shape, 1.0f - dropoutp);
             mask.mul(1.0f / (1.0f - dropoutp));
             in.elementWiseMultiply(mask);
-            
         }
         return in;
     }

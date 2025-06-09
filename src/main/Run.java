@@ -64,10 +64,10 @@ public class Run {
 		Optimizer optimizer = new AdamOptimizer(3e-2f, 0.9f, 0.9f, 0.999f, 0.001f);
 
 		//create metric tracker for tracking metrics
-		Metrics tracker = new Metrics(true, true);
+		Metrics tracker = new Metrics(true, true, true);
 		
 		System.out.println("\nTraining beginning!");
-		ann.train(trainSet, 0.1f, numEpochs, batchSize, optimizer, tracker);
+		ann.train(trainSet, 0.1f, numEpochs, batchSize, true, optimizer, tracker);
 		
 		ann.save("MNIST-0.1.1");
 	}

@@ -63,11 +63,13 @@ public class Dense extends Layer {
 		//forward prop
 		Tensor out = Tensor.multiply(weights[0], in, false, false);
 
-		if(bias) {
+		if(bias && out.rank > 1) {
 			//implicit broadcast
 			weights[1].shape.batch();
 			out.add(weights[1]);
 			weights[1].shape.debatch();
+		}else if(bias && out.rank == 1) {
+			out.add(weights[1]);
 		}
 		return out;
 	}
