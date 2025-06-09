@@ -417,7 +417,7 @@ public class Tensor {
 		for(int i = 0; i< mRows; i++) {
 			//shared dim (rows of vector, columns of matrix)
 			for(int j = 0; j< mCols; j++) {
-				float mVal = !matrixTd ? m.data[m.calcIndex(i, j)] : m.data[m.calcIndex(j, i)];
+				float mVal = !matrixTd ? m.at(m.calcIndex(i, j)) : m.at(m.calcIndex(j, i));
 				float vVal = v.data[j];
 				result.data[i] += mVal * vVal;
 			}
@@ -447,8 +447,8 @@ public class Tensor {
 			for (int v = 0; v < bCols; v++) {
 				int index = result.calcIndex(i, v);
 				for (int j = 0; j < aCols; j++) {
-					float aVal = !aTransposed ? a.data[a.calcIndex(i, j)] : a.data[a.calcIndex(j, i)];
-					float bVal = !bTransposed ? b.data[b.calcIndex(j, v)] : b.data[b.calcIndex(v, j)];
+					float aVal = !aTransposed ? a.at(a.calcIndex(i, j)) : a.at(a.calcIndex(j, i));
+					float bVal = !bTransposed ? b.at(b.calcIndex(j, v)) : b.at(b.calcIndex(v, j));
 					//float aVal = !aTransposed ? a.at(new int[] { i, j }) : a.at(new int[] { j, i });
 					//float bVal = !bTransposed ? b.at(new int[] { j, v }) : b.at(new int[] { v, j });
 					result.data[index] += aVal * bVal;
