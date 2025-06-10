@@ -38,6 +38,7 @@ public class BatchNormalization extends Layer {
         runningVar = new Tensor(s);
         runningMean.init();
         runningVar.init();
+        runningMean.ones();
         runningMean.type = ParameterType.BN_MU;
         runningVar.type = ParameterType.BN_SIGSQ;
     }
@@ -73,10 +74,6 @@ public class BatchNormalization extends Layer {
                 distributionData[i].shape.debatch();
             }
 
-            if(runningMean == null) {
-                initTrackers(distributionData[0].shape);
-            }
-
             //update running mean and var
             distributionData[0].mul(1 - momentum);
             distributionData[1].mul(1 - momentum);
@@ -94,6 +91,12 @@ public class BatchNormalization extends Layer {
             weights[1].shape.debatch();
             return in;
         }else {
+            //check for existence, if not, set to default
+            if(runningMean == null) {
+                //quick hack to get the shape of the distribution
+                initTrackers(in.distribution(0)[0].shape);
+            }
+
             //normalize distribution
             runningMean.shape.batch();
             in.sub(runningMean);
