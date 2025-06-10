@@ -487,7 +487,7 @@ public class Tensor {
 		Random rand = new Random();
 		for(int i = 0; i< res.data.length; i++) {
 			float r = rand.nextFloat();
-			if(r > prob) {
+			if(r < prob) {
 				res.data[i] = 1.0f;
 			}
 		}
