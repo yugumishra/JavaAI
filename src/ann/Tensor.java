@@ -168,6 +168,10 @@ public class Tensor {
 		data[calcIndex(ind)] = n;
 	}
 
+	public void set(int i, float n) {
+		data[i] = n;
+	}
+
 	// global operations on tensor
 	public void mul(float s) {
 		for (int i = 0; i < data.length; i++)
