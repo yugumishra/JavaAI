@@ -6,8 +6,8 @@ import ann.*;
 
 public class Run {
 	public static void main(String[] args) {
-		train();
-		loadTest();
+		//train();
+		//loadTest();
 	}
 	
 	public static void train() {

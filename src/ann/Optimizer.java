@@ -8,13 +8,33 @@ public class Optimizer {
     float decayedLR;
     float l2Gamma;
     boolean l2;
+    
+    //switches between gradient descent/ascent
+    //based on whether you want to minimize log probs (increase likelihood of expected being seen again)
+    //or       whether you want to maximize log probs (decrease likelihood of expected being seen again)
+    boolean invertDirection;
+    //false means gradient descent
+    //true means invert, so gradient ascent
 
-    public Optimizer(float lr, float decay, float l2gamma) {
+    public Optimizer(float lr, float decay, float l2gamma, boolean invertDirection) {
         this.lr = lr;
         this.decay = decay;
         this.decayedLR = lr;
         this.l2Gamma = l2gamma;
         if(l2Gamma < 0.0f) l2 = false;
+        this.invertDirection = invertDirection;
+    }
+
+    public Optimizer(float lr, float decay, float l2gamma) {
+        this(lr, decay, l2gamma, false);
+    }
+
+    public Optimizer(float lr, float decay) {
+        this(lr, decay, 0.0f, false);
+    }
+
+    public Optimizer(float lr) {
+        this(lr, 1.0f, 0.0f, false);
     }
 
     public float getLR() {
@@ -38,7 +58,11 @@ public class Optimizer {
             if(l2 && ParameterType.l2Applicable(weights[i].type)) {
                 weights[i].mul((1.0f - decayedLR * l2Gamma));
             }
-            weights[i].sub(grads[i]);
+            if(!invertDirection) {
+                weights[i].sub(grads[i]);
+            }else {
+                weights[i].add(grads[i]);
+            }
         }
 
         return grads;

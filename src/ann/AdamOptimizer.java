@@ -6,11 +6,37 @@ public class AdamOptimizer extends Optimizer{
     float b2;
     int count = 1;
 
-    public AdamOptimizer(float lr, float decay, float b1, float b2, float l2gamma) {
-        super(lr, decay, l2gamma);
+    public AdamOptimizer(float lr, float decay, float b1, float b2, float l2gamma, boolean invertDirection) {
+        super(lr, decay, l2gamma, invertDirection);
         this.b1 = b1;
         this.b2 = b2;
     }
+
+    public AdamOptimizer(float lr, float decay, float b1, float b2, float l2gamma) {
+        this(lr, decay, b1, b2, l2gamma, false);
+    }
+
+    public AdamOptimizer(float lr, float decay, float l2gamma) {
+        this(lr, decay, 0.9f, 0.999f, l2gamma, false);
+    }
+
+    public AdamOptimizer(float lr, boolean invertDirection) {
+        this(lr, 1.0f, 0.9f, 0.999f, 0.0f, invertDirection);
+    }
+
+    public AdamOptimizer(float lr) {
+        this(lr, 1.0f, 0.9f, 0.999f, 0.0f, false);
+    }
+
+    public AdamOptimizer(float lr, float b1, float b2, float l2gamma) {
+        this(lr, 1.0f, b1, b2, l2gamma);
+    }
+
+    public AdamOptimizer(float lr, float decay) {
+        this(lr, decay, 0.9f, 0.999f, 0.0f, false);
+    }
+
+
 
     //adam optimizer
     //uses momentum and rmsprop for individualized learing rates
