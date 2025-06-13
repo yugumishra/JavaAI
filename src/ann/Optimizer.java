@@ -16,6 +16,11 @@ public class Optimizer {
     //false means gradient descent
     //true means invert, so gradient ascent
 
+    //special scale tensor
+    //needed for very niche per example scales on gradients (really just a hack for gamma discounting)
+    //multiplied to the difference f(x) - e(x) (to scale the gradient)
+    Tensor customScale;
+
     public Optimizer(float lr, float decay, float l2gamma, boolean invertDirection) {
         this.lr = lr;
         this.decay = decay;
@@ -23,6 +28,9 @@ public class Optimizer {
         this.l2Gamma = l2gamma;
         if(l2Gamma < 0.0f) l2 = false;
         this.invertDirection = invertDirection;
+
+        //set custom scale to null (if you want to scale custom, you must do so in a different method call)
+        customScale = null;
     }
 
     public Optimizer(float lr, float decay, float l2gamma) {
@@ -47,6 +55,15 @@ public class Optimizer {
 
     public void decay() {
         decayedLR *= decay;
+    }
+
+    public Tensor customScale() {
+        return customScale;
+    }
+
+    //by reference copy of custom scale (which is multiplied to f(x) - e(x), before backward pass)
+    public void customScale(Tensor t) {
+        customScale = t;
     }
 
     //for basic minibatch SGD, prevGrads can be null reference

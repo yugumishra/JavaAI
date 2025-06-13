@@ -107,6 +107,11 @@ public class Ann {
 
 		// subtract the ground truth to get error (cross-entropy if softmax)
 		out.sub(expected);
+		
+		//scale if flagged in optimizer
+		if(optimizer.customScale() != null) {
+			out.elementWiseMultiply(optimizer.customScale());
+		}
 
 		if(tracker.doLoss()) {
 			//add cross entropy loss here
