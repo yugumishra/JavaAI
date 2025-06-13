@@ -97,9 +97,13 @@ public Tensor[] update(Tensor[] weights, Tensor[] prevGrads, Tensor[] grads, int
         if(l2 && ParameterType.l2Applicable(weights[i].type)) {
             weights[i].mul((1.0f - decayedLR * l2Gamma));
         }
-        //gradient descent
-        weights[i].sub(update);
-
+        //gradient descent/ascent
+        if(!invertDirection) {
+            weights[i].sub(update);
+        }else {
+            weights[i].add(update);
+        }
+        
         //store uncorrected
         prevGrads[2*i + 0] = m;
         prevGrads[2*i + 1] = v;
