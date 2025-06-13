@@ -49,6 +49,13 @@ public class Optimizer {
         return decayedLR;
     }
 
+    //sets the invertDirection variable
+    //false = gradient descent
+    //true = gradient ascent
+    public void setGradientDirection(boolean n) {
+        this.invertDirection = n;
+    }
+
     public void reset() {
         this.decayedLR = lr;
     }
